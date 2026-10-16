@@ -13,7 +13,6 @@ import { Callout } from "./ui/Callout";
 import {
   AirBattery,
   BalloonHeadline,
-  CTA,
   ForceFormula,
   HeaderCard,
   InvertInset,
@@ -37,7 +36,7 @@ export const How05: React.FC = () => {
   useFonts();
   const frame = useCurrentFrame();
   const splitY = project(frame, [1.0, 2.2, 0]).y;
-  const wash = 0.5 * ramp(frame, T.unverified - 10, 20) * (1 - ramp(frame, T.s10, 25)) + 0.85 * ramp(frame, T.next - 6, 14);
+  const wash = Math.max(0.5 * ramp(frame, T.unverified - 10, 20), 0.85 * ramp(frame, T.next - 6, 14));
   return (
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${C.studioTop} 0%, ${C.studioBottom} 100%)` }}>
       <ThreeCanvas width={W} height={H} flat gl={{ antialias: true, alpha: true }} camera={{ fov: 32, near: 0.1, far: 200 }}>
@@ -58,7 +57,6 @@ export const How05: React.FC = () => {
       <NozzleCounter frame={frame} />
       <AirBattery frame={frame} />
       <WarningCard frame={frame} />
-      <CTA frame={frame} />
       <NextEpisode frame={frame} />
       <Subtitles frame={frame} />
       <TopBar frame={frame} />

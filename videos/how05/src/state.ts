@@ -107,7 +107,7 @@ export const mainCar = (f: number): CarState => {
     const center = ramp(f, T.s9, 60, easeInOut);
     opacity = back;
     x = lerp(1.0, 0, center);
-    y = lerp(0.85, 1.25, center) + hoverBob(f) + ramp(f, T.s10, T.end - T.s10, easeInOut) * 0.9;
+    y = lerp(0.85, 1.25, center) + hoverBob(f) + ramp(f, T.next, T.end - T.next, easeInOut) * 0.6;
     CORNERS.forEach((i) => (jets[i] = 0.9));
   }
 

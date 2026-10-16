@@ -270,14 +270,14 @@ export const SplitDivider: React.FC<{ frame: number; y: number }> = ({ frame, y 
 /** Scene 9: claims are not independently tested. */
 export const WarningCard: React.FC<{ frame: number }> = ({ frame }) => {
   const k = ramp(frame, T.unverified, 18, easeOut);
-  const exit = ramp(frame, T.s10 - 12, 12, easeInOut);
-  if (frame < T.unverified || frame > T.s10) return null;
+  const exit = ramp(frame, T.next - 12, 12, easeInOut);
+  if (frame < T.unverified || frame > T.next) return null;
   const src = ramp(frame, T.unverified + 14, 16, easeOut);
   return (
     <div
       style={{
         position: "absolute",
-        top: 720,
+        top: 330,
         left: 0,
         right: 0,
         display: "flex",
@@ -292,97 +292,6 @@ export const WarningCard: React.FC<{ frame: number }> = ({ frame }) => {
         <span>⚠ Tesla мәлімдемесі · тәуелсіз тест жоқ</span>
       </div>
       <div style={{ ...caption, marginTop: 0, opacity: src }}>Дереккөз: TechCrunch, Electrek · 15.10.2026</div>
-    </div>
-  );
-};
-
-const PaperPlane: React.FC<{ size: number; color: string }> = ({ size, color }) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
-    <path d="M21.5 3.2 2.9 10.4c-.9.35-.85 1.64.08 1.92l4.6 1.4 1.8 5.6c.25.8 1.27 1.03 1.85.42l2.5-2.6 4.6 3.4c.65.48 1.58.12 1.75-.67l3.1-14.6c.2-.95-.73-1.75-1.68-1.37Z" fill={color} />
-    <path d="m7.7 13.7 10.1-7.3-7.8 8.6-.4 3.9" stroke="#FFFFFF" strokeWidth={1.2} strokeLinejoin="round" />
-  </svg>
-);
-
-const WORD = "ROADSTER";
-export const TYPE_START = T.s10 + 26;
-export const TYPE_STEP = 5;
-export const SEND_AT = TYPE_START + WORD.length * TYPE_STEP + 14;
-
-/** Scene 10: comment box types ROADSTER, sends, a paper plane flies off. */
-export const CTA: React.FC<{ frame: number }> = ({ frame }) => {
-  const k = ramp(frame, T.s10, 20, easeOut);
-  const exit = ramp(frame, T.next - 10, 10, easeInOut);
-  if (frame < T.s10 || frame > T.next + 2) return null;
-  const typed = Math.max(0, Math.min(WORD.length, Math.floor((frame - TYPE_START) / TYPE_STEP) + 1));
-  const caret = Math.floor(frame / 18) % 2 === 0 && frame < SEND_AT;
-  const press = frame >= SEND_AT && frame < SEND_AT + 8 ? 0.92 : 1;
-  const sent = ramp(frame, SEND_AT + 4, 22, easeOut);
-  const flyStart = Math.max(SEND_AT + 6, T.telegram);
-  const fly = ramp(frame, flyStart, 42, easeInOut);
-  const planeX = lerp(0, 420, fly);
-  const planeY = lerp(0, -560, fly) + Math.sin(fly * Math.PI) * -60;
-  const handle = ramp(frame, T.s10 + 30, 18, easeOut);
-  return (
-    <div style={{ position: "absolute", left: 0, right: 0, top: 1080, ...enterStyle(k, exit) }}>
-      {/* posted comment bubble */}
-      <div
-        style={{
-          position: "absolute",
-          left: 90,
-          top: -150,
-          opacity: sent,
-          transform: `translateY(${(1 - sent) * 60}px)`,
-          display: "flex",
-          alignItems: "center",
-          gap: 18,
-        }}
-      >
-        <div style={{ width: 64, height: 64, borderRadius: 32, background: C.navy, color: C.white, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT.ui, fontWeight: 800, fontSize: 28 }}>
-          b
-        </div>
-        <div style={{ ...pillStyle(C.air), fontSize: 38, fontWeight: 800 }}>
-          <PillBar color={C.air} />
-          {WORD}
-        </div>
-      </div>
-      {/* input row */}
-      <div
-        style={{
-          margin: "0 60px",
-          height: 104,
-          borderRadius: 52,
-          background: C.white,
-          boxShadow: "0 18px 50px rgba(22,33,58,0.12), 0 0 0 1px rgba(22,33,58,0.08)",
-          display: "flex",
-          alignItems: "center",
-          padding: "0 14px 0 38px",
-          gap: 16,
-        }}
-      >
-        <div style={{ flex: 1, fontFamily: FONT.ui, fontWeight: 800, fontSize: 42, color: typed && frame < SEND_AT + 4 ? C.ink : C.mono, letterSpacing: 1 }}>
-          {frame < SEND_AT + 4 ? (typed ? WORD.slice(0, typed) : "") : ""}
-          <span style={{ display: "inline-block", width: 3, height: 46, marginLeft: 4, verticalAlign: "-6px", background: C.air, opacity: caret ? 1 : 0 }} />
-        </div>
-        <div
-          style={{
-            width: 78,
-            height: 78,
-            borderRadius: 39,
-            background: typed === WORD.length ? C.air : "#C9D0DA",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            transform: `scale(${press})`,
-          }}
-        >
-          <div style={{ transform: `translate(${planeX}px, ${planeY}px) rotate(${-12 * fly}deg) scale(${1 + fly * 0.6})`, opacity: 1 - ramp(frame, flyStart + 30, 12) }}>
-            <PaperPlane size={40} color={C.white} />
-          </div>
-        </div>
-      </div>
-      <div style={{ textAlign: "center", marginTop: 34, fontFamily: FONT.ui, fontWeight: 800, fontSize: 40, color: C.navy, opacity: handle, transform: `translateY(${(1 - handle) * 10}px)` }}>
-        @by.bagdat
-      </div>
     </div>
   );
 };

@@ -59,7 +59,6 @@ const SHOTS: Shot[] = [
   shot(T.outerP, 40, [1.0, 3.0, 0], 6, 0, 13.5),
   shot(T.s8, 50, [1.0, 2.3, 0], 22, 2, 19.5, { orbit: -0.6 }),
   shot(T.s9, 55, [0, 1.3, 0], 34, 12, 17, { orbit: 2 }),
-  shot(T.s10, 50, [0, 2.2, 0], -22, 8, 19, { orbit: 1.4 }),
 ];
 
 const withDrift = (shot: Shot, frame: number): Pose => {

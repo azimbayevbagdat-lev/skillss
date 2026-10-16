@@ -2,10 +2,19 @@ import timing from "./timing.json";
 import { FPS } from "./theme";
 
 export type Word = { text: string; start: number; end: number };
-export const WORDS: Word[] = timing.words;
+const ALL_WORDS: Word[] = timing.words;
 export const HAS_VOICE: boolean = (timing as { hasVoice?: boolean }).hasVoice ?? false;
-export const AUDIO_SECONDS: number = timing.duration;
-export const TOTAL_FRAMES = Math.ceil((AUDIO_SECONDS + 1.5) * FPS);
+
+// The closing comment invitation («Комментке «ROADSTER» деп жаз — …») is cut:
+// the voice stops right before it and the video ends 1.5 s later.
+const CUT_INDEX = ALL_WORDS.findIndex((w) => w.text.startsWith("Комментке"));
+export const WORDS: Word[] = CUT_INDEX >= 0 ? ALL_WORDS.slice(0, CUT_INDEX) : ALL_WORDS;
+/** Last voice frame; trims the voiceover just before the cut sentence. */
+export const VOICE_END_FRAME =
+  CUT_INDEX >= 0
+    ? Math.round((WORDS[WORDS.length - 1].end + ALL_WORDS[CUT_INDEX].start) / 2 * FPS)
+    : Math.ceil(timing.duration * FPS);
+export const TOTAL_FRAMES = VOICE_END_FRAME + Math.round(1.5 * FPS);
 
 /** Scene changes lead the trigger word by 3 frames. */
 export const LEAD = 3;
@@ -79,10 +88,8 @@ export const T = {
   // 9. Not independently verified
   s9: cue("Айта кетейін"),
   unverified: cue("тәуелсіз"),
-  // 10. CTA
-  s10: cue("Комментке"),
-  telegram: cue("Telegram"),
-  next: TOTAL_FRAMES - s(1.5),
+  // 10. End card
+  next: VOICE_END_FRAME,
   end: TOTAL_FRAMES,
 };
 
@@ -96,5 +103,5 @@ export const SCENES = [
   { id: 7, from: T.s7, label: "Төңкеріліп жүру: желдеткіштер" },
   { id: 8, from: T.s8, label: "Желдеткіш vs итергіш, ауа қоры" },
   { id: 9, from: T.s9, label: "Тәуелсіз тексерілмеген" },
-  { id: 10, from: T.s10, label: "CTA" },
+  { id: 10, from: T.next, label: "Келесі бөлім: 06" },
 ];

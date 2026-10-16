@@ -4,8 +4,7 @@ import { CALLOUTS } from "./callouts";
 import { shotStarts } from "./camera";
 import { LIFTOFF, MORPH } from "./state";
 import { FPS } from "./theme";
-import { SEND_AT, TYPE_START, TYPE_STEP } from "./ui/Cards";
-import { HAS_VOICE, T, TOTAL_FRAMES, WORDS } from "./timeline";
+import { HAS_VOICE, T, TOTAL_FRAMES, VOICE_END_FRAME, WORDS } from "./timeline";
 
 type Hit = { at: number; src: string; volume: number };
 
@@ -54,15 +53,18 @@ const HITS: Hit[] = [
   ...[T.litres, T.unverified, T.limited + 10, T.ten + 20, T.s5 + 20, 12].map((at) => ({ at, src: sfx("ui-tick"), volume: 0.2 })),
   // camera flights between scenes
   ...shotStarts.slice(1).map((at) => ({ at: Math.max(0, at - 4), src: sfx("whoosh"), volume: 0.2 })),
-  // CTA typing + send
-  ...Array.from({ length: 8 }, (_, i) => ({ at: TYPE_START + i * TYPE_STEP, src: sfx("key"), volume: 0.25 })),
-  { at: SEND_AT, src: sfx("send"), volume: 0.3 },
-  { at: Math.max(SEND_AT + 6, T.telegram), src: sfx("whoosh"), volume: 0.22 },
+  { at: T.next, src: sfx("ui-tick"), volume: 0.2 },
 ];
 
 export const Soundtrack: React.FC = () => (
   <>
-    {HAS_VOICE && <Audio src={staticFile("voice/how05.mp3")} volume={1} />}
+    {HAS_VOICE && (
+      <Audio
+        src={staticFile("voice/how05.mp3")}
+        trimAfter={VOICE_END_FRAME}
+        volume={(f) => Math.min(1, Math.max(0, (VOICE_END_FRAME - f) / 6))}
+      />
+    )}
     <Audio src={staticFile("music/pad.mp3")} volume={musicVolume} />
     {HITS.map((h, i) => (
       <Sequence key={i} from={h.at} durationInFrames={Math.round(3 * FPS)} layout="none">
