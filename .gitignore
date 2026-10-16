@@ -38,7 +38,8 @@ package-lock.json
 .codebuddy/
 .agent/
 .agents/
-.claude/
+.claude/*
+!.claude/skills/
 .cursor/
 .gemini/
 .github/skills/
