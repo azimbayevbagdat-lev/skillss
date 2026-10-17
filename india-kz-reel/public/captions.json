@@ -1,0 +1,1056 @@
+[
+  {
+    "text": "Егер",
+    "startMs": 50,
+    "endMs": 413,
+    "timestampMs": 231,
+    "confidence": null
+  },
+  {
+    "text": " бүкіл",
+    "startMs": 413,
+    "endMs": 775,
+    "timestampMs": 594,
+    "confidence": null
+  },
+  {
+    "text": " Үндістан",
+    "startMs": 775,
+    "endMs": 1296,
+    "timestampMs": 1036,
+    "confidence": null
+  },
+  {
+    "text": " халқы",
+    "startMs": 1296,
+    "endMs": 1658,
+    "timestampMs": 1477,
+    "confidence": null
+  },
+  {
+    "text": " Қазақстанға",
+    "startMs": 1658,
+    "endMs": 2337,
+    "timestampMs": 1997,
+    "confidence": null
+  },
+  {
+    "text": " көшсе,",
+    "startMs": 2337,
+    "endMs": 2699,
+    "timestampMs": 2518,
+    "confidence": null
+  },
+  {
+    "text": " не",
+    "startMs": 2699,
+    "endMs": 2904,
+    "timestampMs": 2802,
+    "confidence": null
+  },
+  {
+    "text": " болар",
+    "startMs": 2904,
+    "endMs": 3267,
+    "timestampMs": 3086,
+    "confidence": null
+  },
+  {
+    "text": " еді?",
+    "startMs": 3267,
+    "endMs": 3630,
+    "timestampMs": 3448,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Бір",
+    "startMs": 4066,
+    "endMs": 4222,
+    "timestampMs": 4144,
+    "confidence": null
+  },
+  {
+    "text": " жарым",
+    "startMs": 4222,
+    "endMs": 4497,
+    "timestampMs": 4359,
+    "confidence": null
+  },
+  {
+    "text": " миллиардқа",
+    "startMs": 4497,
+    "endMs": 5012,
+    "timestampMs": 4755,
+    "confidence": null
+  },
+  {
+    "text": " жуық",
+    "startMs": 5012,
+    "endMs": 5288,
+    "timestampMs": 5150,
+    "confidence": null
+  },
+  {
+    "text": " адам",
+    "startMs": 5288,
+    "endMs": 5563,
+    "timestampMs": 5425,
+    "confidence": null
+  },
+  {
+    "text": " бір",
+    "startMs": 5563,
+    "endMs": 5719,
+    "timestampMs": 5641,
+    "confidence": null
+  },
+  {
+    "text": " мезетте",
+    "startMs": 5719,
+    "endMs": 6114,
+    "timestampMs": 5916,
+    "confidence": null
+  },
+  {
+    "text": " Қазақстанға",
+    "startMs": 6114,
+    "endMs": 6629,
+    "timestampMs": 6372,
+    "confidence": null
+  },
+  {
+    "text": " келеді.",
+    "startMs": 6629,
+    "endMs": 7024,
+    "timestampMs": 6827,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Халық",
+    "startMs": 7407,
+    "endMs": 7708,
+    "timestampMs": 7558,
+    "confidence": null
+  },
+  {
+    "text": " саны",
+    "startMs": 7708,
+    "endMs": 8009,
+    "timestampMs": 7858,
+    "confidence": null
+  },
+  {
+    "text": " жетпіс",
+    "startMs": 8009,
+    "endMs": 8309,
+    "timestampMs": 8159,
+    "confidence": null
+  },
+  {
+    "text": " еседен",
+    "startMs": 8309,
+    "endMs": 8740,
+    "timestampMs": 8525,
+    "confidence": null
+  },
+  {
+    "text": " астам",
+    "startMs": 8740,
+    "endMs": 9041,
+    "timestampMs": 8891,
+    "confidence": null
+  },
+  {
+    "text": " өседі!",
+    "startMs": 9041,
+    "endMs": 9472,
+    "timestampMs": 9257,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Астана,",
+    "startMs": 9830,
+    "endMs": 10472,
+    "timestampMs": 10151,
+    "confidence": null
+  },
+  {
+    "text": " Алматы,",
+    "startMs": 10472,
+    "endMs": 11115,
+    "timestampMs": 10794,
+    "confidence": null
+  },
+  {
+    "text": " Шымкент",
+    "startMs": 11115,
+    "endMs": 11563,
+    "timestampMs": 11339,
+    "confidence": null
+  },
+  {
+    "text": " лық",
+    "startMs": 11563,
+    "endMs": 11817,
+    "timestampMs": 11690,
+    "confidence": null
+  },
+  {
+    "text": " толады.",
+    "startMs": 11817,
+    "endMs": 12460,
+    "timestampMs": 12138,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Баспана,",
+    "startMs": 12792,
+    "endMs": 13313,
+    "timestampMs": 13052,
+    "confidence": null
+  },
+  {
+    "text": " азық-түлік,",
+    "startMs": 13313,
+    "endMs": 13991,
+    "timestampMs": 13652,
+    "confidence": null
+  },
+  {
+    "text": " су",
+    "startMs": 13991,
+    "endMs": 14196,
+    "timestampMs": 14094,
+    "confidence": null
+  },
+  {
+    "text": " мен",
+    "startMs": 14196,
+    "endMs": 14402,
+    "timestampMs": 14299,
+    "confidence": null
+  },
+  {
+    "text": " электр",
+    "startMs": 14402,
+    "endMs": 14765,
+    "timestampMs": 14583,
+    "confidence": null
+  },
+  {
+    "text": " жетпейді.",
+    "startMs": 14765,
+    "endMs": 15285,
+    "timestampMs": 15025,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Миллиондаған",
+    "startMs": 15640,
+    "endMs": 16275,
+    "timestampMs": 15958,
+    "confidence": null
+  },
+  {
+    "text": " адамды",
+    "startMs": 16275,
+    "endMs": 16671,
+    "timestampMs": 16473,
+    "confidence": null
+  },
+  {
+    "text": " бүкіл",
+    "startMs": 16671,
+    "endMs": 16947,
+    "timestampMs": 16809,
+    "confidence": null
+  },
+  {
+    "text": " елге",
+    "startMs": 16947,
+    "endMs": 17222,
+    "timestampMs": 17084,
+    "confidence": null
+  },
+  {
+    "text": " қоныстандыруға",
+    "startMs": 17222,
+    "endMs": 17978,
+    "timestampMs": 17600,
+    "confidence": null
+  },
+  {
+    "text": " тура",
+    "startMs": 17978,
+    "endMs": 18253,
+    "timestampMs": 18115,
+    "confidence": null
+  },
+  {
+    "text": " келеді.",
+    "startMs": 18253,
+    "endMs": 18649,
+    "timestampMs": 18451,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Бірақ",
+    "startMs": 19240,
+    "endMs": 19627,
+    "timestampMs": 19433,
+    "confidence": null
+  },
+  {
+    "text": " бір",
+    "startMs": 19627,
+    "endMs": 19845,
+    "timestampMs": 19736,
+    "confidence": null
+  },
+  {
+    "text": " мәселе",
+    "startMs": 19845,
+    "endMs": 20400,
+    "timestampMs": 20123,
+    "confidence": null
+  },
+  {
+    "text": " бар.",
+    "startMs": 20400,
+    "endMs": 20619,
+    "timestampMs": 20509,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Үндістанның",
+    "startMs": 21108,
+    "endMs": 21691,
+    "timestampMs": 21400,
+    "confidence": null
+  },
+  {
+    "text": " аумағы —",
+    "startMs": 21691,
+    "endMs": 22274,
+    "timestampMs": 21983,
+    "confidence": null
+  },
+  {
+    "text": " үш",
+    "startMs": 22274,
+    "endMs": 22450,
+    "timestampMs": 22362,
+    "confidence": null
+  },
+  {
+    "text": " миллион",
+    "startMs": 22450,
+    "endMs": 22898,
+    "timestampMs": 22674,
+    "confidence": null
+  },
+  {
+    "text": " үш",
+    "startMs": 22898,
+    "endMs": 23074,
+    "timestampMs": 22986,
+    "confidence": null
+  },
+  {
+    "text": " жүз",
+    "startMs": 23074,
+    "endMs": 23250,
+    "timestampMs": 23162,
+    "confidence": null
+  },
+  {
+    "text": " мың",
+    "startMs": 23250,
+    "endMs": 23426,
+    "timestampMs": 23338,
+    "confidence": null
+  },
+  {
+    "text": " шаршы",
+    "startMs": 23426,
+    "endMs": 23738,
+    "timestampMs": 23582,
+    "confidence": null
+  },
+  {
+    "text": " шақырым.",
+    "startMs": 23738,
+    "endMs": 24185,
+    "timestampMs": 23962,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Ал",
+    "startMs": 24601,
+    "endMs": 24800,
+    "timestampMs": 24701,
+    "confidence": null
+  },
+  {
+    "text": " Қазақстан —",
+    "startMs": 24800,
+    "endMs": 25307,
+    "timestampMs": 25053,
+    "confidence": null
+  },
+  {
+    "text": " екі",
+    "startMs": 25580,
+    "endMs": 25857,
+    "timestampMs": 25718,
+    "confidence": null
+  },
+  {
+    "text": " миллион",
+    "startMs": 25857,
+    "endMs": 26254,
+    "timestampMs": 26055,
+    "confidence": null
+  },
+  {
+    "text": " жеті",
+    "startMs": 26254,
+    "endMs": 26531,
+    "timestampMs": 26393,
+    "confidence": null
+  },
+  {
+    "text": " жүз",
+    "startMs": 26531,
+    "endMs": 26688,
+    "timestampMs": 26610,
+    "confidence": null
+  },
+  {
+    "text": " мың.",
+    "startMs": 26688,
+    "endMs": 26845,
+    "timestampMs": 26766,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Яғни",
+    "startMs": 27314,
+    "endMs": 27700,
+    "timestampMs": 27507,
+    "confidence": null
+  },
+  {
+    "text": " Үндістан",
+    "startMs": 27700,
+    "endMs": 28255,
+    "timestampMs": 27978,
+    "confidence": null
+  },
+  {
+    "text": " бізден",
+    "startMs": 28255,
+    "endMs": 28642,
+    "timestampMs": 28448,
+    "confidence": null
+  },
+  {
+    "text": " де",
+    "startMs": 28642,
+    "endMs": 28860,
+    "timestampMs": 28751,
+    "confidence": null
+  },
+  {
+    "text": " үлкен!",
+    "startMs": 28860,
+    "endMs": 29247,
+    "timestampMs": 29053,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Оның",
+    "startMs": 29597,
+    "endMs": 29932,
+    "timestampMs": 29765,
+    "confidence": null
+  },
+  {
+    "text": " үстіне,",
+    "startMs": 29932,
+    "endMs": 30413,
+    "timestampMs": 30173,
+    "confidence": null
+  },
+  {
+    "text": " жеріміздің",
+    "startMs": 30413,
+    "endMs": 31040,
+    "timestampMs": 30727,
+    "confidence": null
+  },
+  {
+    "text": " жартысынан",
+    "startMs": 31040,
+    "endMs": 31666,
+    "timestampMs": 31353,
+    "confidence": null
+  },
+  {
+    "text": " көбі —",
+    "startMs": 31666,
+    "endMs": 32002,
+    "timestampMs": 31834,
+    "confidence": null
+  },
+  {
+    "text": " шөл",
+    "startMs": 32002,
+    "endMs": 32191,
+    "timestampMs": 32096,
+    "confidence": null
+  },
+  {
+    "text": " мен",
+    "startMs": 32191,
+    "endMs": 32381,
+    "timestampMs": 32286,
+    "confidence": null
+  },
+  {
+    "text": " шөлейт.",
+    "startMs": 32381,
+    "endMs": 32716,
+    "timestampMs": 32548,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Ал",
+    "startMs": 33099,
+    "endMs": 33280,
+    "timestampMs": 33189,
+    "confidence": null
+  },
+  {
+    "text": " солтүстікте",
+    "startMs": 33280,
+    "endMs": 33879,
+    "timestampMs": 33580,
+    "confidence": null
+  },
+  {
+    "text": " қыста",
+    "startMs": 33879,
+    "endMs": 34200,
+    "timestampMs": 34040,
+    "confidence": null
+  },
+  {
+    "text": " аяз",
+    "startMs": 34200,
+    "endMs": 34521,
+    "timestampMs": 34360,
+    "confidence": null
+  },
+  {
+    "text": " минус",
+    "startMs": 34521,
+    "endMs": 34841,
+    "timestampMs": 34681,
+    "confidence": null
+  },
+  {
+    "text": " қырық",
+    "startMs": 34841,
+    "endMs": 35162,
+    "timestampMs": 35002,
+    "confidence": null
+  },
+  {
+    "text": " градусқа",
+    "startMs": 35162,
+    "endMs": 35622,
+    "timestampMs": 35392,
+    "confidence": null
+  },
+  {
+    "text": " дейін",
+    "startMs": 35622,
+    "endMs": 35943,
+    "timestampMs": 35782,
+    "confidence": null
+  },
+  {
+    "text": " жетеді.",
+    "startMs": 35943,
+    "endMs": 36403,
+    "timestampMs": 36173,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Адамдарға",
+    "startMs": 36881,
+    "endMs": 37425,
+    "timestampMs": 37153,
+    "confidence": null
+  },
+  {
+    "text": " ыстық",
+    "startMs": 37425,
+    "endMs": 37716,
+    "timestampMs": 37570,
+    "confidence": null
+  },
+  {
+    "text": " шөл",
+    "startMs": 37716,
+    "endMs": 37880,
+    "timestampMs": 37798,
+    "confidence": null
+  },
+  {
+    "text": " мен",
+    "startMs": 37880,
+    "endMs": 38045,
+    "timestampMs": 37962,
+    "confidence": null
+  },
+  {
+    "text": " қатаң",
+    "startMs": 38045,
+    "endMs": 38335,
+    "timestampMs": 38190,
+    "confidence": null
+  },
+  {
+    "text": " қысқа",
+    "startMs": 38335,
+    "endMs": 38626,
+    "timestampMs": 38481,
+    "confidence": null
+  },
+  {
+    "text": " үйренуге",
+    "startMs": 38626,
+    "endMs": 39170,
+    "timestampMs": 38898,
+    "confidence": null
+  },
+  {
+    "text": " тура",
+    "startMs": 39170,
+    "endMs": 39461,
+    "timestampMs": 39316,
+    "confidence": null
+  },
+  {
+    "text": " келер",
+    "startMs": 39461,
+    "endMs": 39752,
+    "timestampMs": 39607,
+    "confidence": null
+  },
+  {
+    "text": " еді.",
+    "startMs": 39752,
+    "endMs": 40043,
+    "timestampMs": 39897,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Ал",
+    "startMs": 40512,
+    "endMs": 40703,
+    "timestampMs": 40608,
+    "confidence": null
+  },
+  {
+    "text": " мемлекетке",
+    "startMs": 40703,
+    "endMs": 41337,
+    "timestampMs": 41020,
+    "confidence": null
+  },
+  {
+    "text": " қалаларды,",
+    "startMs": 41337,
+    "endMs": 41970,
+    "timestampMs": 41653,
+    "confidence": null
+  },
+  {
+    "text": " жолдарды,",
+    "startMs": 41970,
+    "endMs": 42456,
+    "timestampMs": 42213,
+    "confidence": null
+  },
+  {
+    "text": " су",
+    "startMs": 42456,
+    "endMs": 42647,
+    "timestampMs": 42551,
+    "confidence": null
+  },
+  {
+    "text": " құбырлары",
+    "startMs": 42647,
+    "endMs": 43280,
+    "timestampMs": 42964,
+    "confidence": null
+  },
+  {
+    "text": " мен",
+    "startMs": 43280,
+    "endMs": 43472,
+    "timestampMs": 43376,
+    "confidence": null
+  },
+  {
+    "text": " электр",
+    "startMs": 43472,
+    "endMs": 43811,
+    "timestampMs": 43641,
+    "confidence": null
+  },
+  {
+    "text": " станцияларын",
+    "startMs": 43811,
+    "endMs": 44591,
+    "timestampMs": 44201,
+    "confidence": null
+  },
+  {
+    "text": " нөлден",
+    "startMs": 44591,
+    "endMs": 44930,
+    "timestampMs": 44760,
+    "confidence": null
+  },
+  {
+    "text": " салу",
+    "startMs": 44930,
+    "endMs": 45268,
+    "timestampMs": 45099,
+    "confidence": null
+  },
+  {
+    "text": " керек",
+    "startMs": 45268,
+    "endMs": 45607,
+    "timestampMs": 45438,
+    "confidence": null
+  },
+  {
+    "text": " болар",
+    "startMs": 45607,
+    "endMs": 45946,
+    "timestampMs": 45777,
+    "confidence": null
+  },
+  {
+    "text": " еді.",
+    "startMs": 45946,
+    "endMs": 46285,
+    "timestampMs": 46115,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Сонда",
+    "startMs": 46770,
+    "endMs": 47075,
+    "timestampMs": 46922,
+    "confidence": null
+  },
+  {
+    "text": " Қазақстан",
+    "startMs": 47075,
+    "endMs": 47513,
+    "timestampMs": 47294,
+    "confidence": null
+  },
+  {
+    "text": " халқы",
+    "startMs": 47513,
+    "endMs": 47818,
+    "timestampMs": 47665,
+    "confidence": null
+  },
+  {
+    "text": " бір",
+    "startMs": 47818,
+    "endMs": 47990,
+    "timestampMs": 47904,
+    "confidence": null
+  },
+  {
+    "text": " жарым",
+    "startMs": 47990,
+    "endMs": 48296,
+    "timestampMs": 48143,
+    "confidence": null
+  },
+  {
+    "text": " миллиардқа",
+    "startMs": 48296,
+    "endMs": 48866,
+    "timestampMs": 48581,
+    "confidence": null
+  },
+  {
+    "text": " жуықтайды.",
+    "startMs": 48866,
+    "endMs": 49437,
+    "timestampMs": 49151,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Тығыздық",
+    "startMs": 49934,
+    "endMs": 50376,
+    "timestampMs": 50155,
+    "confidence": null
+  },
+  {
+    "text": " бір",
+    "startMs": 50376,
+    "endMs": 50551,
+    "timestampMs": 50463,
+    "confidence": null
+  },
+  {
+    "text": " шаршы",
+    "startMs": 50551,
+    "endMs": 50859,
+    "timestampMs": 50705,
+    "confidence": null
+  },
+  {
+    "text": " шақырымға",
+    "startMs": 50859,
+    "endMs": 51435,
+    "timestampMs": 51147,
+    "confidence": null
+  },
+  {
+    "text": " жеті",
+    "startMs": 51435,
+    "endMs": 51744,
+    "timestampMs": 51590,
+    "confidence": null
+  },
+  {
+    "text": " жарым",
+    "startMs": 51744,
+    "endMs": 52052,
+    "timestampMs": 51898,
+    "confidence": null
+  },
+  {
+    "text": " адамнан",
+    "startMs": 52052,
+    "endMs": 52495,
+    "timestampMs": 52273,
+    "confidence": null
+  },
+  {
+    "text": " бес",
+    "startMs": 52495,
+    "endMs": 52669,
+    "timestampMs": 52582,
+    "confidence": null
+  },
+  {
+    "text": " жүз",
+    "startMs": 52669,
+    "endMs": 52843,
+    "timestampMs": 52756,
+    "confidence": null
+  },
+  {
+    "text": " қырық",
+    "startMs": 52843,
+    "endMs": 53152,
+    "timestampMs": 52997,
+    "confidence": null
+  },
+  {
+    "text": " адамға",
+    "startMs": 53152,
+    "endMs": 53594,
+    "timestampMs": 53373,
+    "confidence": null
+  },
+  {
+    "text": " дейін",
+    "startMs": 53594,
+    "endMs": 53902,
+    "timestampMs": 53748,
+    "confidence": null
+  },
+  {
+    "text": " өседі —",
+    "startMs": 53902,
+    "endMs": 54345,
+    "timestampMs": 54124,
+    "confidence": null
+  },
+  {
+    "text": " бұл",
+    "startMs": 54699,
+    "endMs": 54892,
+    "timestampMs": 54795,
+    "confidence": null
+  },
+  {
+    "text": " Үндістанның",
+    "startMs": 54892,
+    "endMs": 55531,
+    "timestampMs": 55212,
+    "confidence": null
+  },
+  {
+    "text": " өзінен",
+    "startMs": 55531,
+    "endMs": 56022,
+    "timestampMs": 55777,
+    "confidence": null
+  },
+  {
+    "text": " де",
+    "startMs": 56022,
+    "endMs": 56215,
+    "timestampMs": 56119,
+    "confidence": null
+  },
+  {
+    "text": " тығыз!",
+    "startMs": 56215,
+    "endMs": 56557,
+    "timestampMs": 56386,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Баспанаға,",
+    "startMs": 56925,
+    "endMs": 57619,
+    "timestampMs": 57272,
+    "confidence": null
+  },
+  {
+    "text": " инфрақұрылымға,",
+    "startMs": 57619,
+    "endMs": 58635,
+    "timestampMs": 58127,
+    "confidence": null
+  },
+  {
+    "text": " азық-түлік",
+    "startMs": 58635,
+    "endMs": 59329,
+    "timestampMs": 58982,
+    "confidence": null
+  },
+  {
+    "text": " пен",
+    "startMs": 59329,
+    "endMs": 59539,
+    "timestampMs": 59434,
+    "confidence": null
+  },
+  {
+    "text": " суға",
+    "startMs": 59539,
+    "endMs": 59910,
+    "timestampMs": 59724,
+    "confidence": null
+  },
+  {
+    "text": " орасан",
+    "startMs": 59910,
+    "endMs": 60442,
+    "timestampMs": 60176,
+    "confidence": null
+  },
+  {
+    "text": " зор",
+    "startMs": 60442,
+    "endMs": 60652,
+    "timestampMs": 60547,
+    "confidence": null
+  },
+  {
+    "text": " қаржы",
+    "startMs": 60652,
+    "endMs": 61023,
+    "timestampMs": 60838,
+    "confidence": null
+  },
+  {
+    "text": " салынбаса…",
+    "startMs": 61023,
+    "endMs": 61717,
+    "timestampMs": 61370,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " елді",
+    "startMs": 62037,
+    "endMs": 62351,
+    "timestampMs": 62194,
+    "confidence": null
+  },
+  {
+    "text": " ауқымды",
+    "startMs": 62351,
+    "endMs": 62937,
+    "timestampMs": 62644,
+    "confidence": null
+  },
+  {
+    "text": " гуманитарлық",
+    "startMs": 62937,
+    "endMs": 63659,
+    "timestampMs": 63298,
+    "confidence": null
+  },
+  {
+    "text": " дағдарыс",
+    "startMs": 63659,
+    "endMs": 64109,
+    "timestampMs": 63884,
+    "confidence": null
+  },
+  {
+    "text": " күтер",
+    "startMs": 64109,
+    "endMs": 64422,
+    "timestampMs": 64266,
+    "confidence": null
+  },
+  {
+    "text": " еді.",
+    "startMs": 64422,
+    "endMs": 64736,
+    "timestampMs": 64579,
+    "confidence": null,
+    "pageBreakAfter": true
+  }
+]
