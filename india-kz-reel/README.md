@@ -40,5 +40,17 @@ npx remotion still MainReel out/frame.png --frame=350
 npx remotion render MainReel out/india-kazakhstan.mp4 --codec=h264 --crf=18
 ```
 
-Optional background music: put `public/music.mp3` (plays at volume 0.1).
+## Sound design
+
+`src/components/SoundDesign.tsx` places synthesized SFX (sub-bass booms on key beats, whooshes on
+scene changes, pops, counter ticks/blips, particle shimmer, risers, wind, zaps) modeled on the
+reference reel. `public/music.mp3` is a quiet generated pad + arpeggio bed (volume 0.09).
+Regenerate everything with `python3 scripts/make-sfx.py` (numpy, scipy, ffmpeg).
+
+For Reels loudness (≈ −14 LUFS), normalize after rendering:
+
+```bash
+ffmpeg -i out/india-kazakhstan.mp4 -c:v copy -af loudnorm=I=-14:TP=-1:LRA=11 -ar 48000 -c:a aac -b:a 192k out/final.mp4
+```
+
 Use `REMOTION_BROWSER=/path/to/chrome` if Remotion can't download its own browser.

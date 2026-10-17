@@ -6,6 +6,7 @@ import { fade } from "@remotion/transitions/fade";
 import { Background, Vignette, Watermark } from "./components/Background";
 import { CounterPills } from "./components/CounterPills";
 import { Captions } from "./components/Captions";
+import { SoundDesign } from "./components/SoundDesign";
 import { FONT_BODY, FPS, SCENES, SceneId, TRANSITION_FRAMES } from "./theme";
 import { SceneProps } from "./scenes/common";
 import { S01Hook } from "./scenes/S01Hook";
@@ -79,9 +80,8 @@ export const MainReel: React.FC<MainReelProps> = ({ hasMusic }) => {
       <Captions />
       <Watermark />
       <Audio src={staticFile("voiceover.mp3")} />
-      {hasMusic ? (
-        <Audio src={staticFile("music.mp3")} volume={0.1} loop />
-      ) : null}
+      <SoundDesign />
+      {hasMusic ? <Audio src={staticFile("music.mp3")} volume={0.09} /> : null}
     </AbsoluteFill>
   );
 };
