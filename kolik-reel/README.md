@@ -8,7 +8,7 @@
 - `src/Captions.tsx` — top typography: black words pop in one by one, key phrase on a red second line
 - `public/captions.json` — built by `node scripts/make-captions.mjs` (script text + pause/energy alignment;
   Whisper models could not be downloaded in the build sandbox)
-- `public/sfx/` — synthesized whoosh + water (`python3 scripts/make-sfx.py`), volume 0.1
+- `src/SoundDesign.tsx` — cartoon SFX on scene events (zap, hit, pop, scribble, alarm, gulp, stopwatch ticks, ding, click, wind; whoosh + water at 0.1). Files in `public/sfx/` are synthesized by `python3 scripts/make-sfx.py`
 
 ```bash
 npm i

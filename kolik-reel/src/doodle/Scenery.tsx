@@ -37,12 +37,10 @@ export const Road: React.FC<{
 }> = ({ y = 1320, scroll = 0, trees = true }) => {
   const treeList = useMemo(
     () =>
-      new Array(8)
-        .fill(0)
-        .map((_, i) => ({
-          x: i * 330 + random(`t${i}`) * 120,
-          s: 0.8 + random(`ts${i}`) * 0.5,
-        })),
+      new Array(8).fill(0).map((_, i) => ({
+        x: i * 330 + random(`t${i}`) * 120,
+        s: 0.8 + random(`ts${i}`) * 0.5,
+      })),
     [],
   );
   const span = 8 * 330;

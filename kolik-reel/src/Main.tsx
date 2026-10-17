@@ -1,12 +1,13 @@
 import React from "react";
-import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
+import { AbsoluteFill, staticFile, useVideoConfig } from "remotion";
 import { Audio } from "@remotion/media";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
 import { slide } from "@remotion/transitions/slide";
 import { BoilDefs, PaperGrain } from "./doodle/Boil";
 import { Captions } from "./Captions";
-import { FPS, SCENES, SceneId, TRANSITION_FRAMES, sceneStart } from "./theme";
+import { SoundDesign } from "./SoundDesign";
+import { FPS, SCENES, SceneId, TRANSITION_FRAMES } from "./theme";
 import { SceneProps } from "./scenes/common";
 import { S01Hook } from "./scenes/S01Hook";
 import { S02Signal } from "./scenes/S02Signal";
@@ -75,26 +76,7 @@ export const Main: React.FC = () => {
       <PaperGrain opacity={0.28} />
       <Captions />
       <Audio src={staticFile("voiceover.wav")} />
-      {/* soft whooshes on scene changes + water under the sway scene (≤ 0.12) */}
-      {SCENES.slice(1).map((s) => (
-        <Sequence
-          key={s.id}
-          from={Math.max(0, Math.round((s.start - 0.18) * FPS))}
-          durationInFrames={20}
-          layout="none"
-        >
-          <Audio src={staticFile("sfx/whoosh.wav")} volume={0.1} />
-        </Sequence>
-      ))}
-      <Sequence
-        from={Math.round(sceneStart("sway") * FPS)}
-        durationInFrames={Math.round(
-          (sceneStart("kids") - sceneStart("sway")) * FPS,
-        )}
-        layout="none"
-      >
-        <Audio src={staticFile("sfx/water.wav")} volume={0.1} />
-      </Sequence>
+      <SoundDesign />
     </AbsoluteFill>
   );
 };
