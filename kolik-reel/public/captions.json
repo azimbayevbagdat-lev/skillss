@@ -1,0 +1,912 @@
+[
+  {
+    "text": "Көлікте",
+    "startMs": 70,
+    "endMs": 630,
+    "timestampMs": 350,
+    "confidence": null
+  },
+  {
+    "text": "артта",
+    "startMs": 630,
+    "endMs": 930,
+    "timestampMs": 780,
+    "confidence": null
+  },
+  {
+    "text": "отырсаң,",
+    "startMs": 930,
+    "endMs": 1250,
+    "timestampMs": 1090,
+    "confidence": null
+  },
+  {
+    "text": "неге",
+    "startMs": 1250,
+    "endMs": 1610,
+    "timestampMs": 1430,
+    "confidence": null
+  },
+  {
+    "text": "жүрегің",
+    "startMs": 1610,
+    "endMs": 1992,
+    "timestampMs": 1801,
+    "confidence": null
+  },
+  {
+    "text": "айниды?",
+    "startMs": 1992,
+    "endMs": 2430,
+    "timestampMs": 2211,
+    "confidence": null
+  },
+  {
+    "text": "Себебі",
+    "startMs": 2590,
+    "endMs": 2928,
+    "timestampMs": 2759,
+    "confidence": null
+  },
+  {
+    "text": "миыңда",
+    "startMs": 2928,
+    "endMs": 3340,
+    "timestampMs": 3134,
+    "confidence": null
+  },
+  {
+    "text": "нағыз",
+    "startMs": 3340,
+    "endMs": 3502,
+    "timestampMs": 3421,
+    "confidence": null
+  },
+  {
+    "text": "«сигнал",
+    "startMs": 3502,
+    "endMs": 3840,
+    "timestampMs": 3671,
+    "confidence": null
+  },
+  {
+    "text": "соғысы»",
+    "startMs": 3840,
+    "endMs": 4140,
+    "timestampMs": 3990,
+    "confidence": null
+  },
+  {
+    "text": "жүріп",
+    "startMs": 4140,
+    "endMs": 4312,
+    "timestampMs": 4226,
+    "confidence": null
+  },
+  {
+    "text": "жатады.",
+    "startMs": 4312,
+    "endMs": 4650,
+    "timestampMs": 4481,
+    "confidence": null
+  },
+  {
+    "text": "Ішкі",
+    "startMs": 5140,
+    "endMs": 5480,
+    "timestampMs": 5310,
+    "confidence": null
+  },
+  {
+    "text": "құлақ:",
+    "startMs": 5480,
+    "endMs": 5760,
+    "timestampMs": 5620,
+    "confidence": null
+  },
+  {
+    "text": "«Біз",
+    "startMs": 5760,
+    "endMs": 6010,
+    "timestampMs": 5885,
+    "confidence": null
+  },
+  {
+    "text": "бұрылып",
+    "startMs": 6010,
+    "endMs": 6680,
+    "timestampMs": 6345,
+    "confidence": null
+  },
+  {
+    "text": "жатырмыз!»",
+    "startMs": 6680,
+    "endMs": 7120,
+    "timestampMs": 6900,
+    "confidence": null
+  },
+  {
+    "text": "дейді.",
+    "startMs": 7310,
+    "endMs": 7550,
+    "timestampMs": 7430,
+    "confidence": null
+  },
+  {
+    "text": "Ал",
+    "startMs": 7550,
+    "endMs": 7800,
+    "timestampMs": 7675,
+    "confidence": null
+  },
+  {
+    "text": "көз:",
+    "startMs": 7800,
+    "endMs": 7890,
+    "timestampMs": 7845,
+    "confidence": null
+  },
+  {
+    "text": "«Жоқ,",
+    "startMs": 8100,
+    "endMs": 8380,
+    "timestampMs": 8240,
+    "confidence": null
+  },
+  {
+    "text": "бәрі",
+    "startMs": 8380,
+    "endMs": 8700,
+    "timestampMs": 8540,
+    "confidence": null
+  },
+  {
+    "text": "орнында», —",
+    "startMs": 8700,
+    "endMs": 9190,
+    "timestampMs": 8945,
+    "confidence": null
+  },
+  {
+    "text": "дейді.",
+    "startMs": 9190,
+    "endMs": 9510,
+    "timestampMs": 9350,
+    "confidence": null
+  },
+  {
+    "text": "Өйткені",
+    "startMs": 9640,
+    "endMs": 10127,
+    "timestampMs": 9884,
+    "confidence": null
+  },
+  {
+    "text": "салон",
+    "startMs": 10127,
+    "endMs": 10466,
+    "timestampMs": 10297,
+    "confidence": null
+  },
+  {
+    "text": "қозғалмайды.",
+    "startMs": 10466,
+    "endMs": 11100,
+    "timestampMs": 10783,
+    "confidence": null
+  },
+  {
+    "text": "Ми",
+    "startMs": 11530,
+    "endMs": 11820,
+    "timestampMs": 11675,
+    "confidence": null
+  },
+  {
+    "text": "екі",
+    "startMs": 11820,
+    "endMs": 11994,
+    "timestampMs": 11907,
+    "confidence": null
+  },
+  {
+    "text": "түрлі",
+    "startMs": 11994,
+    "endMs": 12240,
+    "timestampMs": 12117,
+    "confidence": null
+  },
+  {
+    "text": "хабар",
+    "startMs": 12240,
+    "endMs": 12710,
+    "timestampMs": 12475,
+    "confidence": null
+  },
+  {
+    "text": "алады",
+    "startMs": 12710,
+    "endMs": 13080,
+    "timestampMs": 12895,
+    "confidence": null
+  },
+  {
+    "text": "да...",
+    "startMs": 13080,
+    "endMs": 13180,
+    "timestampMs": 13130,
+    "confidence": null
+  },
+  {
+    "text": "«Бұл",
+    "startMs": 13320,
+    "endMs": 13570,
+    "timestampMs": 13445,
+    "confidence": null
+  },
+  {
+    "text": "адам",
+    "startMs": 13570,
+    "endMs": 13777,
+    "timestampMs": 13674,
+    "confidence": null
+  },
+  {
+    "text": "уланып",
+    "startMs": 13777,
+    "endMs": 14160,
+    "timestampMs": 13969,
+    "confidence": null
+  },
+  {
+    "text": "қалған!»",
+    "startMs": 14160,
+    "endMs": 14487,
+    "timestampMs": 14324,
+    "confidence": null
+  },
+  {
+    "text": "деп",
+    "startMs": 14487,
+    "endMs": 14652,
+    "timestampMs": 14570,
+    "confidence": null
+  },
+  {
+    "text": "шешеді.",
+    "startMs": 14652,
+    "endMs": 15070,
+    "timestampMs": 14861,
+    "confidence": null
+  },
+  {
+    "text": "Сосын",
+    "startMs": 15560,
+    "endMs": 15810,
+    "timestampMs": 15685,
+    "confidence": null
+  },
+  {
+    "text": "денені",
+    "startMs": 15810,
+    "endMs": 16382,
+    "timestampMs": 16096,
+    "confidence": null
+  },
+  {
+    "text": "«удан»",
+    "startMs": 16382,
+    "endMs": 16950,
+    "timestampMs": 16666,
+    "confidence": null
+  },
+  {
+    "text": "тазартуға",
+    "startMs": 16950,
+    "endMs": 17440,
+    "timestampMs": 17195,
+    "confidence": null
+  },
+  {
+    "text": "кіріседі.",
+    "startMs": 17440,
+    "endMs": 18060,
+    "timestampMs": 17750,
+    "confidence": null
+  },
+  {
+    "text": "Жүрек",
+    "startMs": 18060,
+    "endMs": 18321,
+    "timestampMs": 18191,
+    "confidence": null
+  },
+  {
+    "text": "айнуы",
+    "startMs": 18321,
+    "endMs": 18910,
+    "timestampMs": 18616,
+    "confidence": null
+  },
+  {
+    "text": "осыдан.",
+    "startMs": 18910,
+    "endMs": 19290,
+    "timestampMs": 19100,
+    "confidence": null
+  },
+  {
+    "text": "Артта",
+    "startMs": 19790,
+    "endMs": 19990,
+    "timestampMs": 19890,
+    "confidence": null
+  },
+  {
+    "text": "отырған",
+    "startMs": 19990,
+    "endMs": 20630,
+    "timestampMs": 20310,
+    "confidence": null
+  },
+  {
+    "text": "адам",
+    "startMs": 20630,
+    "endMs": 20840,
+    "timestampMs": 20735,
+    "confidence": null
+  },
+  {
+    "text": "алдағы",
+    "startMs": 20840,
+    "endMs": 21300,
+    "timestampMs": 21070,
+    "confidence": null
+  },
+  {
+    "text": "жолды",
+    "startMs": 21300,
+    "endMs": 21590,
+    "timestampMs": 21445,
+    "confidence": null
+  },
+  {
+    "text": "көрмейді.",
+    "startMs": 21590,
+    "endMs": 22130,
+    "timestampMs": 21860,
+    "confidence": null
+  },
+  {
+    "text": "Ми",
+    "startMs": 22500,
+    "endMs": 22730,
+    "timestampMs": 22615,
+    "confidence": null
+  },
+  {
+    "text": "бұрылысты",
+    "startMs": 22730,
+    "endMs": 23400,
+    "timestampMs": 23065,
+    "confidence": null
+  },
+  {
+    "text": "алдын",
+    "startMs": 23400,
+    "endMs": 23720,
+    "timestampMs": 23560,
+    "confidence": null
+  },
+  {
+    "text": "ала",
+    "startMs": 23720,
+    "endMs": 23870,
+    "timestampMs": 23795,
+    "confidence": null
+  },
+  {
+    "text": "болжай",
+    "startMs": 23870,
+    "endMs": 24277,
+    "timestampMs": 24074,
+    "confidence": null
+  },
+  {
+    "text": "алмайды.",
+    "startMs": 24277,
+    "endMs": 24770,
+    "timestampMs": 24524,
+    "confidence": null
+  },
+  {
+    "text": "Ал",
+    "startMs": 24770,
+    "endMs": 25040,
+    "timestampMs": 24905,
+    "confidence": null
+  },
+  {
+    "text": "жүргізушінің",
+    "startMs": 25040,
+    "endMs": 25760,
+    "timestampMs": 25400,
+    "confidence": null
+  },
+  {
+    "text": "жүрегі",
+    "startMs": 25760,
+    "endMs": 26270,
+    "timestampMs": 26015,
+    "confidence": null
+  },
+  {
+    "text": "сирек",
+    "startMs": 26270,
+    "endMs": 26481,
+    "timestampMs": 26376,
+    "confidence": null
+  },
+  {
+    "text": "айниды.",
+    "startMs": 26481,
+    "endMs": 26950,
+    "timestampMs": 26716,
+    "confidence": null
+  },
+  {
+    "text": "Рульді",
+    "startMs": 27120,
+    "endMs": 27390,
+    "timestampMs": 27255,
+    "confidence": null
+  },
+  {
+    "text": "өзі",
+    "startMs": 27390,
+    "endMs": 27718,
+    "timestampMs": 27554,
+    "confidence": null
+  },
+  {
+    "text": "бұрады,",
+    "startMs": 27718,
+    "endMs": 28270,
+    "timestampMs": 27994,
+    "confidence": null
+  },
+  {
+    "text": "қайда",
+    "startMs": 28270,
+    "endMs": 28446,
+    "timestampMs": 28358,
+    "confidence": null
+  },
+  {
+    "text": "бұрылатынын",
+    "startMs": 28446,
+    "endMs": 29240,
+    "timestampMs": 28843,
+    "confidence": null
+  },
+  {
+    "text": "біледі.",
+    "startMs": 29240,
+    "endMs": 29580,
+    "timestampMs": 29410,
+    "confidence": null
+  },
+  {
+    "text": "Ең",
+    "startMs": 29580,
+    "endMs": 29840,
+    "timestampMs": 29710,
+    "confidence": null
+  },
+  {
+    "text": "қиыны —",
+    "startMs": 29840,
+    "endMs": 30161,
+    "timestampMs": 30001,
+    "confidence": null
+  },
+  {
+    "text": "баяу,",
+    "startMs": 30161,
+    "endMs": 30590,
+    "timestampMs": 30376,
+    "confidence": null
+  },
+  {
+    "text": "ырғақты",
+    "startMs": 31320,
+    "endMs": 31950,
+    "timestampMs": 31635,
+    "confidence": null
+  },
+  {
+    "text": "тербеліс.",
+    "startMs": 31950,
+    "endMs": 32340,
+    "timestampMs": 32145,
+    "confidence": null
+  },
+  {
+    "text": "Шамамен",
+    "startMs": 33010,
+    "endMs": 33516,
+    "timestampMs": 33263,
+    "confidence": null
+  },
+  {
+    "text": "бес",
+    "startMs": 33516,
+    "endMs": 33715,
+    "timestampMs": 33616,
+    "confidence": null
+  },
+  {
+    "text": "секундта",
+    "startMs": 33715,
+    "endMs": 34221,
+    "timestampMs": 33968,
+    "confidence": null
+  },
+  {
+    "text": "бір",
+    "startMs": 34221,
+    "endMs": 34500,
+    "timestampMs": 34361,
+    "confidence": null
+  },
+  {
+    "text": "рет.",
+    "startMs": 34500,
+    "endMs": 34620,
+    "timestampMs": 34560,
+    "confidence": null
+  },
+  {
+    "text": "Тағы",
+    "startMs": 35100,
+    "endMs": 35300,
+    "timestampMs": 35200,
+    "confidence": null
+  },
+  {
+    "text": "бір",
+    "startMs": 35300,
+    "endMs": 35596,
+    "timestampMs": 35448,
+    "confidence": null
+  },
+  {
+    "text": "қызық",
+    "startMs": 35596,
+    "endMs": 35913,
+    "timestampMs": 35755,
+    "confidence": null
+  },
+  {
+    "text": "дерек:",
+    "startMs": 35913,
+    "endMs": 36230,
+    "timestampMs": 36072,
+    "confidence": null
+  },
+  {
+    "text": "бұған",
+    "startMs": 36230,
+    "endMs": 36430,
+    "timestampMs": 36330,
+    "confidence": null
+  },
+  {
+    "text": "ең",
+    "startMs": 36430,
+    "endMs": 36850,
+    "timestampMs": 36640,
+    "confidence": null
+  },
+  {
+    "text": "бейімі —",
+    "startMs": 36850,
+    "endMs": 37180,
+    "timestampMs": 37015,
+    "confidence": null
+  },
+  {
+    "text": "екі",
+    "startMs": 37350,
+    "endMs": 37610,
+    "timestampMs": 37480,
+    "confidence": null
+  },
+  {
+    "text": "мен",
+    "startMs": 37610,
+    "endMs": 38040,
+    "timestampMs": 37825,
+    "confidence": null
+  },
+  {
+    "text": "он",
+    "startMs": 38040,
+    "endMs": 38120,
+    "timestampMs": 38080,
+    "confidence": null
+  },
+  {
+    "text": "екі",
+    "startMs": 38120,
+    "endMs": 38630,
+    "timestampMs": 38375,
+    "confidence": null
+  },
+  {
+    "text": "жас",
+    "startMs": 38630,
+    "endMs": 38840,
+    "timestampMs": 38735,
+    "confidence": null
+  },
+  {
+    "text": "аралығындағы",
+    "startMs": 38840,
+    "endMs": 39700,
+    "timestampMs": 39270,
+    "confidence": null
+  },
+  {
+    "text": "балалар.",
+    "startMs": 39700,
+    "endMs": 40370,
+    "timestampMs": 40035,
+    "confidence": null
+  },
+  {
+    "text": "Ал",
+    "startMs": 40750,
+    "endMs": 40872,
+    "timestampMs": 40811,
+    "confidence": null
+  },
+  {
+    "text": "жолда",
+    "startMs": 40872,
+    "endMs": 41170,
+    "timestampMs": 41021,
+    "confidence": null
+  },
+  {
+    "text": "телефонға",
+    "startMs": 41170,
+    "endMs": 41420,
+    "timestampMs": 41295,
+    "confidence": null
+  },
+  {
+    "text": "үңілсең,",
+    "startMs": 41420,
+    "endMs": 41800,
+    "timestampMs": 41610,
+    "confidence": null
+  },
+  {
+    "text": "ми",
+    "startMs": 42050,
+    "endMs": 42200,
+    "timestampMs": 42125,
+    "confidence": null
+  },
+  {
+    "text": "одан",
+    "startMs": 42200,
+    "endMs": 42490,
+    "timestampMs": 42345,
+    "confidence": null
+  },
+  {
+    "text": "бетер",
+    "startMs": 42490,
+    "endMs": 42975,
+    "timestampMs": 42733,
+    "confidence": null
+  },
+  {
+    "text": "шатасады.",
+    "startMs": 42975,
+    "endMs": 43450,
+    "timestampMs": 43213,
+    "confidence": null
+  },
+  {
+    "text": "Шешімі",
+    "startMs": 43450,
+    "endMs": 44166,
+    "timestampMs": 43808,
+    "confidence": null
+  },
+  {
+    "text": "қарапайым:",
+    "startMs": 44166,
+    "endMs": 44840,
+    "timestampMs": 44503,
+    "confidence": null
+  },
+  {
+    "text": "алдыңғы",
+    "startMs": 45070,
+    "endMs": 45770,
+    "timestampMs": 45420,
+    "confidence": null
+  },
+  {
+    "text": "орындыққа",
+    "startMs": 45770,
+    "endMs": 46610,
+    "timestampMs": 46190,
+    "confidence": null
+  },
+  {
+    "text": "отыр",
+    "startMs": 46610,
+    "endMs": 46820,
+    "timestampMs": 46715,
+    "confidence": null
+  },
+  {
+    "text": "да,",
+    "startMs": 46820,
+    "endMs": 47190,
+    "timestampMs": 47005,
+    "confidence": null
+  },
+  {
+    "text": "алысқа,",
+    "startMs": 47640,
+    "endMs": 48097,
+    "timestampMs": 47869,
+    "confidence": null
+  },
+  {
+    "text": "көкжиекке",
+    "startMs": 48097,
+    "endMs": 48660,
+    "timestampMs": 48379,
+    "confidence": null
+  },
+  {
+    "text": "қара.",
+    "startMs": 48660,
+    "endMs": 49010,
+    "timestampMs": 48835,
+    "confidence": null
+  },
+  {
+    "text": "Сонда",
+    "startMs": 49150,
+    "endMs": 49590,
+    "timestampMs": 49370,
+    "confidence": null
+  },
+  {
+    "text": "сигналдар",
+    "startMs": 49590,
+    "endMs": 49938,
+    "timestampMs": 49764,
+    "confidence": null
+  },
+  {
+    "text": "бір-біріне",
+    "startMs": 49938,
+    "endMs": 50600,
+    "timestampMs": 50269,
+    "confidence": null
+  },
+  {
+    "text": "сәйкес",
+    "startMs": 50600,
+    "endMs": 50810,
+    "timestampMs": 50705,
+    "confidence": null
+  },
+  {
+    "text": "келеді.",
+    "startMs": 50810,
+    "endMs": 51330,
+    "timestampMs": 51070,
+    "confidence": null
+  },
+  {
+    "text": "Терезені",
+    "startMs": 51840,
+    "endMs": 52341,
+    "timestampMs": 52091,
+    "confidence": null
+  },
+  {
+    "text": "сәл",
+    "startMs": 52341,
+    "endMs": 52550,
+    "timestampMs": 52446,
+    "confidence": null
+  },
+  {
+    "text": "ашсаң,",
+    "startMs": 52550,
+    "endMs": 52820,
+    "timestampMs": 52685,
+    "confidence": null
+  },
+  {
+    "text": "тіпті",
+    "startMs": 52820,
+    "endMs": 53028,
+    "timestampMs": 52924,
+    "confidence": null
+  },
+  {
+    "text": "жақсы.",
+    "startMs": 53028,
+    "endMs": 53360,
+    "timestampMs": 53194,
+    "confidence": null
+  },
+  {
+    "text": "Осындай",
+    "startMs": 53360,
+    "endMs": 53680,
+    "timestampMs": 53520,
+    "confidence": null
+  },
+  {
+    "text": "қызықты",
+    "startMs": 53680,
+    "endMs": 54065,
+    "timestampMs": 53873,
+    "confidence": null
+  },
+  {
+    "text": "ақпараттарды",
+    "startMs": 54065,
+    "endMs": 54682,
+    "timestampMs": 54374,
+    "confidence": null
+  },
+  {
+    "text": "жіберіп",
+    "startMs": 54682,
+    "endMs": 55090,
+    "timestampMs": 54886,
+    "confidence": null
+  },
+  {
+    "text": "алмау",
+    "startMs": 55090,
+    "endMs": 55330,
+    "timestampMs": 55210,
+    "confidence": null
+  },
+  {
+    "text": "үшін",
+    "startMs": 55330,
+    "endMs": 55600,
+    "timestampMs": 55465,
+    "confidence": null
+  },
+  {
+    "text": "парақшаға",
+    "startMs": 55600,
+    "endMs": 56320,
+    "timestampMs": 55960,
+    "confidence": null
+  },
+  {
+    "text": "тіркеліңіз!",
+    "startMs": 56320,
+    "endMs": 56720,
+    "timestampMs": 56520,
+    "confidence": null
+  }
+]
