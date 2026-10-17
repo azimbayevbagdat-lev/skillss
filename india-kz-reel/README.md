@@ -44,8 +44,10 @@ npx remotion render MainReel out/india-kazakhstan.mp4 --codec=h264 --crf=18
 
 `src/components/SoundDesign.tsx` places synthesized SFX (sub-bass booms on key beats, whooshes on
 scene changes, pops, counter ticks/blips, particle shimmer, risers, wind, zaps) modeled on the
-reference reel. `public/music.mp3` is a quiet generated pad + arpeggio bed (volume 0.09).
-Regenerate everything with `python3 scripts/make-sfx.py` (numpy, scipy, ffmpeg).
+reference reel. `public/music.mp3` is generated Indian-style music (volume 0.22): tanpura drone,
+sitar-like plucks in raga Bhairav, tabla in Keherwa; tabla drops out for the "problem/area" part
+and the final section is darker. Regenerate with `python3 scripts/make-sfx.py` and
+`python3 scripts/make-indian-music.py` (numpy, scipy, ffmpeg).
 
 For Reels loudness (≈ −14 LUFS), normalize after rendering:
 

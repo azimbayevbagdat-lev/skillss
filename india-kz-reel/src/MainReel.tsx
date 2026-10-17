@@ -81,7 +81,7 @@ export const MainReel: React.FC<MainReelProps> = ({ hasMusic }) => {
       <Watermark />
       <Audio src={staticFile("voiceover.mp3")} />
       <SoundDesign />
-      {hasMusic ? <Audio src={staticFile("music.mp3")} volume={0.09} /> : null}
+      {hasMusic ? <Audio src={staticFile("music.mp3")} volume={0.22} /> : null}
     </AbsoluteFill>
   );
 };

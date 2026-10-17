@@ -1,4 +1,4 @@
-"""Synthesizes all sound effects (public/sfx/*.wav) and the ambient music bed (public/music.mp3).
+"""Synthesizes all sound effects (public/sfx/*.wav) (music: scripts/make-indian-music.py).
 
 Modeled on the reference reel: sub-bass "boom" drops on key beats, whooshes on scene changes,
 pops/blips for UI elements, ticks for counters, a shimmer for the particle swarm, risers,
@@ -157,70 +157,4 @@ gl += bp(rng.standard_normal(len(t)), 800, 4000) * (np.floor(t * 23) % 2) * 0.6
 save("glitch", gl * env_ad(t, 0.002, 6), peak=0.6)
 
 
-# ---------- Music bed: quiet electronic pad + plucked arpeggio (A minor, 96 bpm) ----------
-def note(m):
-    return 440 * 2 ** ((m - 69) / 12)
-
-
-DUR = 66.0
-t = t_axis(DUR)
-music = np.zeros(len(t))
-beat = 60 / 96
-bar = beat * 4
-# chords (midi): Am, F, C, G ... final section darker: Dm, Am
-prog = [[57, 60, 64], [53, 57, 60], [48, 55, 60], [55, 59, 62]]
-dark = [[50, 53, 57], [45, 52, 57]]
-FINAL_AT = 56.8
-pos = 0.0
-i = 0
-chords = []
-while pos < DUR:
-    seq = dark if pos >= FINAL_AT - 0.01 else prog
-    chords.append((pos, seq[i % len(seq)]))
-    pos += bar * 2
-    i += 1
-    if FINAL_AT - 0.01 > pos - bar * 2 and pos > FINAL_AT and seq is prog:
-        pos = FINAL_AT  # switch harmony exactly at the final scene
-        i = 0
-for start, ch in chords:
-    length = bar * 2 + 1.0
-    s = int(start * SR)
-    seg_t = t_axis(min(length, DUR - start))
-    env = np.minimum(seg_t / 0.9, 1) * np.minimum((len(seg_t) / SR - seg_t) / 1.0, 1)
-    pad = np.zeros(len(seg_t))
-    for m in ch:
-        for det in (-0.08, 0.0, 0.08):
-            f0 = note(m) * 2 ** (det / 12)
-            for h in range(1, 7):
-                pad += np.sin(2 * np.pi * f0 * h * seg_t + h) / h ** 1.6
-    bass = np.sin(2 * np.pi * note(ch[0] - 12) * seg_t) * 0.5
-    music[s : s + len(seg_t)] += (pad * 0.12 + bass * 0.35) * env
-    # arpeggio: 8th notes through chord tones one/two octaves up
-    arp = [ch[0] + 12, ch[1] + 12, ch[2] + 12, ch[1] + 24]
-    n8 = beat / 2
-    k = 0
-    while k * n8 < bar * 2 and start + k * n8 < DUR - 0.5:
-        ps = int((start + k * n8) * SR)
-        g = t_axis(0.45)
-        f0 = note(arp[k % 4])
-        pl = (np.sin(2 * np.pi * f0 * g) + 0.3 * np.sin(4 * np.pi * f0 * g)) * np.exp(-g * 9)
-        pl *= np.minimum(g / 0.004, 1) * np.minimum((0.45 - g) / 0.08, 1)
-        end = min(ps + len(g), len(music))
-        music[ps:end] += pl[: end - ps] * 0.22
-        k += 1
-music = hp(lp(music, 3200), 70)
-# simple stereo delay for width
-d = int(beat * 0.75 * SR)
-left = music.copy()
-right = np.concatenate([np.zeros(d), music[:-d]]) * 0.8 + music * 0.6
-fade = np.minimum(t / 1.5, 1) * np.minimum((DUR - t) / 2.5, 1)
-stereo = np.stack([left * fade, right * fade], 1)
-stereo /= np.abs(stereo).max() / 0.85
-tmp = os.path.join(OUT, "_music.wav")
-wavfile.write(tmp, SR, (stereo * 32767).astype(np.int16))
-subprocess.run(
-    ["ffmpeg", "-y", "-loglevel", "error", "-i", tmp, "-b:a", "192k", os.path.join(ROOT, "public", "music.mp3")],
-    check=True,
-)
-os.remove(tmp)
 print("done:", sorted(os.listdir(OUT)))
