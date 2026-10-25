@@ -1,0 +1,8 @@
+*.mp4
+*.mov
+work/*
+!work/scripts/
+!work/script.txt
+!work/timeline.json
+!work/whisper_words.json
+!work/words_aligned_full.json

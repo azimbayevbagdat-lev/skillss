@@ -1,0 +1,828 @@
+[
+ {
+  "word": "Өзіміздің",
+  "start": 0.0,
+  "end": 0.46,
+  "src_start": 0.0,
+  "src_end": 0.6
+ },
+ {
+  "word": "Қажет",
+  "start": 0.46,
+  "end": 0.74,
+  "src_start": 0.6,
+  "src_end": 0.88
+ },
+ {
+  "word": "таксиді",
+  "start": 0.74,
+  "end": 1.2,
+  "src_start": 0.88,
+  "src_end": 1.34
+ },
+ {
+  "word": "бір",
+  "start": 1.2,
+  "end": 1.44,
+  "src_start": 1.34,
+  "src_end": 1.58
+ },
+ {
+  "word": "аптада",
+  "start": 1.44,
+  "end": 1.7,
+  "src_start": 1.58,
+  "src_end": 1.84
+ },
+ {
+  "word": "300",
+  "start": 1.7,
+  "end": 2.12,
+  "src_start": 1.84,
+  "src_end": 2.26
+ },
+ {
+  "word": "мың",
+  "start": 2.12,
+  "end": 2.38,
+  "src_start": 2.26,
+  "src_end": 2.52
+ },
+ {
+  "word": "адам",
+  "start": 2.38,
+  "end": 2.58,
+  "src_start": 2.52,
+  "src_end": 2.72
+ },
+ {
+  "word": "жүктеген",
+  "start": 2.58,
+  "end": 2.98,
+  "src_start": 2.72,
+  "src_end": 3.12
+ },
+ {
+  "word": "екен,",
+  "start": 2.98,
+  "end": 3.24,
+  "src_start": 3.12,
+  "src_end": 3.38
+ },
+ {
+  "word": "ал",
+  "start": 3.61,
+  "end": 3.67,
+  "src_start": 3.96,
+  "src_end": 4.02
+ },
+ {
+  "word": "Яндекс",
+  "start": 3.67,
+  "end": 4.17,
+  "src_start": 4.02,
+  "src_end": 4.52
+ },
+ {
+  "word": "пен",
+  "start": 4.17,
+  "end": 4.39,
+  "src_start": 4.52,
+  "src_end": 4.74
+ },
+ {
+  "word": "inDrive",
+  "start": 4.39,
+  "end": 4.852,
+  "src_start": 4.74,
+  "src_end": 5.202
+ },
+ {
+  "word": "бірден",
+  "start": 4.91,
+  "end": 5.31,
+  "src_start": 5.26,
+  "src_end": 5.66
+ },
+ {
+  "word": "комиссиясын",
+  "start": 5.31,
+  "end": 5.89,
+  "src_start": 5.66,
+  "src_end": 6.24
+ },
+ {
+  "word": "түсіріп,",
+  "start": 5.89,
+  "end": 6.25,
+  "src_start": 6.24,
+  "src_end": 6.6
+ },
+ {
+  "word": "бонус",
+  "start": 6.25,
+  "end": 6.65,
+  "src_start": 6.6,
+  "src_end": 7.0
+ },
+ {
+  "word": "тарата",
+  "start": 6.65,
+  "end": 6.93,
+  "src_start": 7.0,
+  "src_end": 7.28
+ },
+ {
+  "word": "бастады.",
+  "start": 6.93,
+  "end": 7.18,
+  "src_start": 7.28,
+  "src_end": 7.53
+ },
+ {
+  "word": "Бұл",
+  "start": 7.48,
+  "end": 7.5,
+  "src_start": 8.68,
+  "src_end": 8.7
+ },
+ {
+  "word": "демпингке",
+  "start": 7.5,
+  "end": 8.0,
+  "src_start": 8.7,
+  "src_end": 9.2
+ },
+ {
+  "word": "Қажет",
+  "start": 8.0,
+  "end": 8.36,
+  "src_start": 9.2,
+  "src_end": 9.56
+ },
+ {
+  "word": "такси",
+  "start": 8.36,
+  "end": 8.61,
+  "src_start": 9.56,
+  "src_end": 9.81
+ },
+ {
+  "word": "төтеп",
+  "start": 8.66,
+  "end": 8.96,
+  "src_start": 9.86,
+  "src_end": 10.16
+ },
+ {
+  "word": "бере",
+  "start": 8.96,
+  "end": 9.103,
+  "src_start": 10.16,
+  "src_end": 10.303
+ },
+ {
+  "word": "ала",
+  "start": 9.103,
+  "end": 9.245,
+  "src_start": 10.303,
+  "src_end": 10.445
+ },
+ {
+  "word": "ма?",
+  "start": 9.245,
+  "end": 9.34,
+  "src_start": 10.445,
+  "src_end": 10.54
+ },
+ {
+  "word": "Яғни",
+  "start": 9.48,
+  "end": 10.18,
+  "src_start": 10.68,
+  "src_end": 11.38
+ },
+ {
+  "word": "отандық",
+  "start": 10.268,
+  "end": 10.88,
+  "src_start": 11.468,
+  "src_end": 12.08
+ },
+ {
+  "word": "бір",
+  "start": 10.88,
+  "end": 11.1,
+  "src_start": 12.08,
+  "src_end": 12.3
+ },
+ {
+  "word": "қосымша",
+  "start": 11.1,
+  "end": 11.62,
+  "src_start": 12.3,
+  "src_end": 12.82
+ },
+ {
+  "word": "бүкіл",
+  "start": 11.62,
+  "end": 12.34,
+  "src_start": 12.82,
+  "src_end": 13.54
+ },
+ {
+  "word": "нарықты",
+  "start": 12.34,
+  "end": 12.76,
+  "src_start": 13.54,
+  "src_end": 13.96
+ },
+ {
+  "word": "қозғалтты!",
+  "start": 12.76,
+  "end": 13.3,
+  "src_start": 13.96,
+  "src_end": 14.5
+ },
+ {
+  "word": "«Қазақ",
+  "start": 13.78,
+  "end": 13.94,
+  "src_start": 15.44,
+  "src_end": 15.6
+ },
+ {
+  "word": "тазиктен",
+  "start": 13.94,
+  "end": 14.38,
+  "src_start": 15.6,
+  "src_end": 16.04
+ },
+ {
+  "word": "басқа",
+  "start": 14.38,
+  "end": 14.76,
+  "src_start": 16.04,
+  "src_end": 16.42
+ },
+ {
+  "word": "не",
+  "start": 14.76,
+  "end": 14.94,
+  "src_start": 16.42,
+  "src_end": 16.6
+ },
+ {
+  "word": "шығарды?»",
+  "start": 14.94,
+  "end": 15.44,
+  "src_start": 16.6,
+  "src_end": 17.1
+ },
+ {
+  "word": "дейтіндерге",
+  "start": 15.44,
+  "end": 16.04,
+  "src_start": 17.1,
+  "src_end": 17.7
+ },
+ {
+  "word": "міне",
+  "start": 16.04,
+  "end": 16.28,
+  "src_start": 17.7,
+  "src_end": 17.94
+ },
+ {
+  "word": "жауап.",
+  "start": 16.28,
+  "end": 16.58,
+  "src_start": 17.94,
+  "src_end": 18.24
+ },
+ {
+  "word": "қазақ",
+  "start": 16.89,
+  "end": 17.63,
+  "src_start": 19.34,
+  "src_end": 20.08
+ },
+ {
+  "word": "жігіттері",
+  "start": 17.63,
+  "end": 18.29,
+  "src_start": 20.08,
+  "src_end": 20.74
+ },
+ {
+  "word": "жасаған",
+  "start": 18.29,
+  "end": 18.99,
+  "src_start": 20.74,
+  "src_end": 21.44
+ },
+ {
+  "word": "қосымшаны",
+  "start": 18.99,
+  "end": 19.51,
+  "src_start": 21.44,
+  "src_end": 21.96
+ },
+ {
+  "word": "қолданып,",
+  "start": 19.51,
+  "end": 20.23,
+  "src_start": 21.96,
+  "src_end": 22.68
+ },
+ {
+  "word": "қолдау",
+  "start": 20.23,
+  "end": 20.57,
+  "src_start": 22.68,
+  "src_end": 23.02
+ },
+ {
+  "word": "көрсетейік.",
+  "start": 20.57,
+  "end": 21.07,
+  "src_start": 23.02,
+  "src_end": 23.52
+ },
+ {
+  "word": "Әрбір",
+  "start": 21.73,
+  "end": 22.43,
+  "src_start": 24.18,
+  "src_end": 25.2
+ },
+ {
+  "word": "сапарымыз",
+  "start": 22.43,
+  "end": 23.19,
+  "src_start": 25.2,
+  "src_end": 25.96
+ },
+ {
+  "word": "үшін",
+  "start": 23.19,
+  "end": 23.43,
+  "src_start": 25.96,
+  "src_end": 26.2
+ },
+ {
+  "word": "төленген",
+  "start": 23.43,
+  "end": 23.89,
+  "src_start": 26.2,
+  "src_end": 26.66
+ },
+ {
+  "word": "ақша",
+  "start": 23.89,
+  "end": 24.19,
+  "src_start": 26.66,
+  "src_end": 26.96
+ },
+ {
+  "word": "өз",
+  "start": 24.19,
+  "end": 24.57,
+  "src_start": 26.96,
+  "src_end": 27.34
+ },
+ {
+  "word": "елімізде",
+  "start": 24.57,
+  "end": 24.99,
+  "src_start": 27.34,
+  "src_end": 27.76
+ },
+ {
+  "word": "қалады.",
+  "start": 24.99,
+  "end": 25.34,
+  "src_start": 27.76,
+  "src_end": 28.11
+ },
+ {
+  "word": "Тағы",
+  "start": 25.64,
+  "end": 25.76,
+  "src_start": 28.74,
+  "src_end": 28.86
+ },
+ {
+  "word": "бір",
+  "start": 25.76,
+  "end": 25.96,
+  "src_start": 28.86,
+  "src_end": 29.06
+ },
+ {
+  "word": "қызық",
+  "start": 25.96,
+  "end": 26.26,
+  "src_start": 29.06,
+  "src_end": 29.36
+ },
+ {
+  "word": "жайт:",
+  "start": 26.26,
+  "end": 26.436,
+  "src_start": 29.36,
+  "src_end": 29.536
+ },
+ {
+  "word": "App",
+  "start": 26.436,
+  "end": 26.86,
+  "src_start": 29.536,
+  "src_end": 29.96
+ },
+ {
+  "word": "Store-да",
+  "start": 26.86,
+  "end": 27.22,
+  "src_start": 29.96,
+  "src_end": 30.32
+ },
+ {
+  "word": "Qajet",
+  "start": 27.22,
+  "end": 27.56,
+  "src_start": 30.32,
+  "src_end": 30.66
+ },
+ {
+  "word": "такси-дің",
+  "start": 27.56,
+  "end": 28.12,
+  "src_start": 30.66,
+  "src_end": 31.22
+ },
+ {
+  "word": "әзірлеушісі",
+  "start": 28.12,
+  "end": 28.823,
+  "src_start": 31.22,
+  "src_end": 31.923
+ },
+ {
+  "word": "ретінде",
+  "start": 28.823,
+  "end": 29.2,
+  "src_start": 31.923,
+  "src_end": 32.3
+ },
+ {
+  "word": "Жамбыл",
+  "start": 29.2,
+  "end": 29.9,
+  "src_start": 32.3,
+  "src_end": 33.0
+ },
+ {
+  "word": "деген",
+  "start": 29.9,
+  "end": 30.24,
+  "src_start": 33.0,
+  "src_end": 33.34
+ },
+ {
+  "word": "бауырымыз",
+  "start": 30.24,
+  "end": 30.81,
+  "src_start": 33.34,
+  "src_end": 33.91
+ },
+ {
+  "word": "көрсетілген,",
+  "start": 31.11,
+  "end": 31.77,
+  "src_start": 34.52,
+  "src_end": 35.18
+ },
+ {
+  "word": "ол",
+  "start": 31.85,
+  "end": 32.33,
+  "src_start": 35.26,
+  "src_end": 35.74
+ },
+ {
+  "word": "вайб-кодингтің",
+  "start": 32.33,
+  "end": 33.09,
+  "src_start": 35.74,
+  "src_end": 36.5
+ },
+ {
+  "word": "көмегімен",
+  "start": 33.09,
+  "end": 33.69,
+  "src_start": 36.5,
+  "src_end": 37.1
+ },
+ {
+  "word": "осы",
+  "start": 33.69,
+  "end": 34.47,
+  "src_start": 37.1,
+  "src_end": 37.88
+ },
+ {
+  "word": "Қажет",
+  "start": 34.47,
+  "end": 34.77,
+  "src_start": 37.88,
+  "src_end": 38.18
+ },
+ {
+  "word": "таксиді",
+  "start": 34.77,
+  "end": 35.29,
+  "src_start": 38.18,
+  "src_end": 38.7
+ },
+ {
+  "word": "жасап",
+  "start": 35.29,
+  "end": 36.01,
+  "src_start": 38.7,
+  "src_end": 39.42
+ },
+ {
+  "word": "шығарған.",
+  "start": 36.01,
+  "end": 36.55,
+  "src_start": 39.42,
+  "src_end": 39.96
+ },
+ {
+  "word": "Бүгінде",
+  "start": 36.55,
+  "end": 37.34,
+  "src_start": 39.96,
+  "src_end": 41.04
+ },
+ {
+  "word": "жасанды",
+  "start": 37.34,
+  "end": 37.88,
+  "src_start": 41.04,
+  "src_end": 41.58
+ },
+ {
+  "word": "интеллекттің",
+  "start": 37.88,
+  "end": 38.44,
+  "src_start": 41.58,
+  "src_end": 42.14
+ },
+ {
+  "word": "көмегімен",
+  "start": 38.44,
+  "end": 39.04,
+  "src_start": 42.14,
+  "src_end": 42.74
+ },
+ {
+  "word": "идеяңызды",
+  "start": 39.04,
+  "end": 40.1,
+  "src_start": 42.74,
+  "src_end": 43.8
+ },
+ {
+  "word": "қосымшаға",
+  "start": 40.1,
+  "end": 41.14,
+  "src_start": 43.8,
+  "src_end": 45.12
+ },
+ {
+  "word": "айналдыру",
+  "start": 41.14,
+  "end": 41.778,
+  "src_start": 45.12,
+  "src_end": 45.758
+ },
+ {
+  "word": "бұрынғыдан",
+  "start": 41.92,
+  "end": 42.5,
+  "src_start": 45.9,
+  "src_end": 46.48
+ },
+ {
+  "word": "әлдеқайда",
+  "start": 42.68,
+  "end": 43.8,
+  "src_start": 46.66,
+  "src_end": 47.78
+ },
+ {
+  "word": "оңай",
+  "start": 43.8,
+  "end": 44.004,
+  "src_start": 47.78,
+  "src_end": 47.984
+ },
+ {
+  "word": "болғанын",
+  "start": 44.004,
+  "end": 44.48,
+  "src_start": 47.984,
+  "src_end": 48.46
+ },
+ {
+  "word": "білесіз",
+  "start": 44.48,
+  "end": 44.88,
+  "src_start": 48.46,
+  "src_end": 48.86
+ },
+ {
+  "word": "бе?",
+  "start": 44.88,
+  "end": 45.08,
+  "src_start": 48.86,
+  "src_end": 49.06
+ },
+ {
+  "word": "Вайб-кодинг",
+  "start": 45.16,
+  "end": 46.04,
+  "src_start": 49.14,
+  "src_end": 50.02
+ },
+ {
+  "word": "арқылы",
+  "start": 46.04,
+  "end": 46.503,
+  "src_start": 50.02,
+  "src_end": 50.483
+ },
+ {
+  "word": "қосымшаны",
+  "start": 46.58,
+  "end": 47.08,
+  "src_start": 50.56,
+  "src_end": 51.06
+ },
+ {
+  "word": "қалай",
+  "start": 47.08,
+  "end": 47.4,
+  "src_start": 51.06,
+  "src_end": 51.38
+ },
+ {
+  "word": "жасауға",
+  "start": 47.4,
+  "end": 47.9,
+  "src_start": 51.38,
+  "src_end": 51.88
+ },
+ {
+  "word": "болады,",
+  "start": 47.9,
+  "end": 48.38,
+  "src_start": 51.88,
+  "src_end": 52.36
+ },
+ {
+  "word": "промптты",
+  "start": 48.44,
+  "end": 49.19,
+  "src_start": 52.42,
+  "src_end": 53.38
+ },
+ {
+  "word": "басқалардан",
+  "start": 49.19,
+  "end": 49.91,
+  "src_start": 53.38,
+  "src_end": 54.1
+ },
+ {
+  "word": "іздемей,",
+  "start": 49.91,
+  "end": 50.41,
+  "src_start": 54.1,
+  "src_end": 54.6
+ },
+ {
+  "word": "өзің",
+  "start": 50.49,
+  "end": 51.25,
+  "src_start": 54.68,
+  "src_end": 55.44
+ },
+ {
+  "word": "қалай",
+  "start": 51.25,
+  "end": 51.77,
+  "src_start": 55.44,
+  "src_end": 55.96
+ },
+ {
+  "word": "дайындайсың",
+  "start": 51.77,
+  "end": 52.81,
+  "src_start": 55.96,
+  "src_end": 57.0
+ },
+ {
+  "word": "осының",
+  "start": 52.904,
+  "end": 53.47,
+  "src_start": 57.094,
+  "src_end": 57.66
+ },
+ {
+  "word": "бәрін",
+  "start": 53.47,
+  "end": 53.77,
+  "src_start": 57.66,
+  "src_end": 57.96
+ },
+ {
+  "word": "алдағы",
+  "start": 53.77,
+  "end": 54.13,
+  "src_start": 57.96,
+  "src_end": 58.32
+ },
+ {
+  "word": "уақытта",
+  "start": 54.13,
+  "end": 54.49,
+  "src_start": 58.32,
+  "src_end": 58.68
+ },
+ {
+  "word": "парақшамда",
+  "start": 54.49,
+  "end": 55.17,
+  "src_start": 58.68,
+  "src_end": 59.36
+ },
+ {
+  "word": "бөлісемін.",
+  "start": 55.17,
+  "end": 56.09,
+  "src_start": 59.36,
+  "src_end": 60.28
+ },
+ {
+  "word": "Пайдалы",
+  "start": 56.09,
+  "end": 56.64,
+  "src_start": 60.28,
+  "src_end": 61.1
+ },
+ {
+  "word": "ақпаратты",
+  "start": 56.64,
+  "end": 57.51,
+  "src_start": 61.1,
+  "src_end": 62.34
+ },
+ {
+  "word": "жіберіп",
+  "start": 57.51,
+  "end": 57.827,
+  "src_start": 62.34,
+  "src_end": 62.657
+ },
+ {
+  "word": "алмау",
+  "start": 57.827,
+  "end": 58.11,
+  "src_start": 62.657,
+  "src_end": 62.94
+ },
+ {
+  "word": "үшін",
+  "start": 58.11,
+  "end": 58.33,
+  "src_start": 62.94,
+  "src_end": 63.16
+ },
+ {
+  "word": "тіркеліп",
+  "start": 58.73,
+  "end": 59.31,
+  "src_start": 63.56,
+  "src_end": 64.14
+ },
+ {
+  "word": "қойыңыз!",
+  "start": 59.31,
+  "end": 59.67,
+  "src_start": 64.14,
+  "src_end": 64.5
+ }
+]
