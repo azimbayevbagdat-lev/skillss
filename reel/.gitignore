@@ -6,3 +6,8 @@ work/*
 !work/timeline.json
 !work/whisper_words.json
 !work/words_aligned_full.json
+!work/rem/
+work/rem/node_modules/
+work/rem/public/base.mov
+work/rem/out/
+!work/sfx_events.json

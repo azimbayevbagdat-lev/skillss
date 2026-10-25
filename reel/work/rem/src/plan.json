@@ -1,0 +1,25 @@
+{
+  "fps": 30,
+  "duration": 60.28,
+  "faceOrigin": "50% 45%",
+  "overlays": [
+    {"id": "hook", "from": 0.0, "to": 1.65, "logoAt": 0.46},
+    {"id": "counter", "from": 1.70, "to": 3.45, "countEnd": 2.85},
+    {"id": "profile", "from": 3.45, "to": 5.22, "circleAt": 3.9},
+    {"id": "komissiya", "from": 5.31, "to": 6.22},
+    {"id": "bonus", "from": 6.25, "to": 7.45},
+    {"id": "dumping", "from": 7.50, "to": 9.45, "qAt": 9.24},
+    {"id": "kz", "from": 11.62, "to": 13.70, "shakeAt": 12.76},
+    {"id": "chat", "from": 13.78, "to": 16.00, "typeAt": 13.95},
+    {"id": "check", "from": 16.04, "to": 16.85},
+    {"id": "hand", "from": 20.23, "to": 21.60, "heartAt": 20.6},
+    {"id": "money", "from": 23.89, "to": 25.55, "landAt": 24.65},
+    {"id": "appcard", "from": 26.44, "to": 29.15},
+    {"id": "jambyl", "from": 29.20, "to": 32.28, "markAt": 30.25},
+    {"id": "terminal", "from": 32.33, "to": 36.40, "typeAt": 32.6, "text": "vibe coding ⚡", "cps": 11},
+    {"id": "idea", "from": 37.34, "to": 41.10, "morphAt": 40.05},
+    {"id": "prompt", "from": 48.44, "to": 52.85, "typeAt": 48.75, "text": "Маған такси қосымшасын жасап бер…", "cps": 15},
+    {"id": "badge", "from": 54.49, "to": 56.05},
+    {"id": "subscribe", "from": 58.73, "to": 60.28, "clickAt": 59.05}
+  ]
+}
