@@ -56,11 +56,11 @@ export const Reel: React.FC = () => {
     <AbsoluteFill style={{ backgroundColor: "black" }}>
       <AbsoluteFill
         style={{
-          transform: `translate(${sx}px, ${sy}px) scale(${zoom})`,
+          transform: `translate(${sx}px, ${sy}px) scale(${zoom * (amp > 0 ? 1.04 : 1)})`,
           transformOrigin: plan.faceOrigin,
         }}
       >
-        <Video src={staticFile("base.mov")} muted style={{ width: "100%", height: "100%" }} />
+        <Video src={staticFile("base.mov")} muted objectFit="cover" style={{ width: "100%", height: "100%" }} />
       </AbsoluteFill>
       <Overlays />
       <Captions />
