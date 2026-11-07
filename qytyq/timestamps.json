@@ -1,0 +1,1317 @@
+{
+ "source": "local-whisper-alignment",
+ "matchRatio": 0.955,
+ "text": "Біреу сені қытықтаса, шыдай алмай күлесің. Ал өзіңді өзің қытықтап көрші. Ештеңе болмайды. Неге?\nСебебі сенің миың сені алдап кете алмайды.\nСен қолыңды енді қозғалта бастағанда-ақ ми біліп отырады: қол қазір қай жерге тиеді, қалай тиеді. Ол оны алдын ала есептеп қояды.\nАл алдын ала белгілі болған сезімге ми көп мән бермейді. «Бұл өзім ғой, қорқатын ештеңе жоқ» дейді де, сезімді әлсіретіп тастайды. Сондықтан өзіңді қытықтағанда, жай ғана терің тиіп тұрғандай болады.\nАл басқа адам қытықтағанда жағдай басқа. Ол қолын қашан, қай жерге апаратынын сен білмейсің. Ми де білмейді. Күтпеген жерден бір нәрсе тигенде, дене бірден сақтанады. Селт етесің, бұраласың, күлкің келеді.\nҒалымдар мұны қызық тәжірибемен тексерген. Адам өзін арнайы құрылғы арқылы қытықтаған, бірақ құрылғы сәл кешігіп тиетін болған. Сол кішкене кідірістің өзі жеткілікті болған: ми болжай алмай қалып, адам өз қытығын сезе бастаған.\nЯғни ми бізге тек сезу үшін емес, не болатынын алдын ала білу үшін керек. Ал біз күтпеген нәрсені ғана шын сеземіз.\nДенең мен миың туралы осындай қызық нәрселерді жіберіп алмау үшін, парақшаға жазылып қойыңыз.",
+ "words": [
+  {
+   "text": "Біреу",
+   "start": 0.0,
+   "end": 0.175,
+   "charStart": 0,
+   "charEnd": 5
+  },
+  {
+   "text": "сені",
+   "start": 0.175,
+   "end": 0.454,
+   "charStart": 6,
+   "charEnd": 10
+  },
+  {
+   "text": "қытықтаса,",
+   "start": 0.454,
+   "end": 1.1,
+   "charStart": 11,
+   "charEnd": 21
+  },
+  {
+   "text": "шыдай",
+   "start": 1.1,
+   "end": 1.482,
+   "charStart": 22,
+   "charEnd": 27
+  },
+  {
+   "text": "алмай",
+   "start": 1.482,
+   "end": 1.713,
+   "charStart": 28,
+   "charEnd": 33
+  },
+  {
+   "text": "күлесің.",
+   "start": 1.713,
+   "end": 2.247,
+   "charStart": 34,
+   "charEnd": 42
+  },
+  {
+   "text": "Ал",
+   "start": 2.655,
+   "end": 2.755,
+   "charStart": 43,
+   "charEnd": 45
+  },
+  {
+   "text": "өзіңді",
+   "start": 2.758,
+   "end": 3.418,
+   "charStart": 46,
+   "charEnd": 52
+  },
+  {
+   "text": "өзің",
+   "start": 3.418,
+   "end": 3.565,
+   "charStart": 53,
+   "charEnd": 57
+  },
+  {
+   "text": "қытықтап",
+   "start": 3.565,
+   "end": 3.968,
+   "charStart": 58,
+   "charEnd": 66
+  },
+  {
+   "text": "көрші.",
+   "start": 3.968,
+   "end": 4.332,
+   "charStart": 67,
+   "charEnd": 73
+  },
+  {
+   "text": "Ештеңе",
+   "start": 4.731,
+   "end": 5.064,
+   "charStart": 74,
+   "charEnd": 80
+  },
+  {
+   "text": "болмайды.",
+   "start": 5.064,
+   "end": 5.536,
+   "charStart": 81,
+   "charEnd": 90
+  },
+  {
+   "text": "Неге?",
+   "start": 5.894,
+   "end": 6.142,
+   "charStart": 91,
+   "charEnd": 96
+  },
+  {
+   "text": "Себебі",
+   "start": 6.651,
+   "end": 7.128,
+   "charStart": 97,
+   "charEnd": 103
+  },
+  {
+   "text": "сенің",
+   "start": 7.128,
+   "end": 7.588,
+   "charStart": 104,
+   "charEnd": 109
+  },
+  {
+   "text": "миың",
+   "start": 7.588,
+   "end": 7.87,
+   "charStart": 110,
+   "charEnd": 114
+  },
+  {
+   "text": "сені",
+   "start": 7.87,
+   "end": 8.118,
+   "charStart": 115,
+   "charEnd": 119
+  },
+  {
+   "text": "алдап",
+   "start": 8.118,
+   "end": 8.485,
+   "charStart": 120,
+   "charEnd": 125
+  },
+  {
+   "text": "кете",
+   "start": 8.485,
+   "end": 8.687,
+   "charStart": 126,
+   "charEnd": 130
+  },
+  {
+   "text": "алмайды.",
+   "start": 8.687,
+   "end": 9.153,
+   "charStart": 131,
+   "charEnd": 139
+  },
+  {
+   "text": "Сен",
+   "start": 9.536,
+   "end": 9.649,
+   "charStart": 140,
+   "charEnd": 143
+  },
+  {
+   "text": "қолыңды",
+   "start": 9.649,
+   "end": 10.065,
+   "charStart": 144,
+   "charEnd": 151
+  },
+  {
+   "text": "енді",
+   "start": 10.065,
+   "end": 10.407,
+   "charStart": 152,
+   "charEnd": 156
+  },
+  {
+   "text": "қозғалта",
+   "start": 10.407,
+   "end": 10.857,
+   "charStart": 157,
+   "charEnd": 165
+  },
+  {
+   "text": "бастағанда-ақ",
+   "start": 10.857,
+   "end": 11.673,
+   "charStart": 166,
+   "charEnd": 179
+  },
+  {
+   "text": "ми",
+   "start": 11.673,
+   "end": 11.874,
+   "charStart": 180,
+   "charEnd": 182
+  },
+  {
+   "text": "біліп",
+   "start": 11.874,
+   "end": 12.203,
+   "charStart": 183,
+   "charEnd": 188
+  },
+  {
+   "text": "отырады:",
+   "start": 12.203,
+   "end": 12.607,
+   "charStart": 189,
+   "charEnd": 197
+  },
+  {
+   "text": "қол",
+   "start": 12.97,
+   "end": 13.114,
+   "charStart": 198,
+   "charEnd": 201
+  },
+  {
+   "text": "қазір",
+   "start": 13.114,
+   "end": 13.46,
+   "charStart": 202,
+   "charEnd": 207
+  },
+  {
+   "text": "қай",
+   "start": 13.46,
+   "end": 13.684,
+   "charStart": 208,
+   "charEnd": 211
+  },
+  {
+   "text": "жерге",
+   "start": 13.684,
+   "end": 13.933,
+   "charStart": 212,
+   "charEnd": 217
+  },
+  {
+   "text": "тиеді,",
+   "start": 13.933,
+   "end": 14.326,
+   "charStart": 218,
+   "charEnd": 224
+  },
+  {
+   "text": "қалай",
+   "start": 14.536,
+   "end": 14.777,
+   "charStart": 225,
+   "charEnd": 230
+  },
+  {
+   "text": "тиеді.",
+   "start": 14.777,
+   "end": 15.176,
+   "charStart": 231,
+   "charEnd": 237
+  },
+  {
+   "text": "Ол",
+   "start": 15.578,
+   "end": 15.678,
+   "charStart": 238,
+   "charEnd": 240
+  },
+  {
+   "text": "оны",
+   "start": 15.678,
+   "end": 15.829,
+   "charStart": 241,
+   "charEnd": 244
+  },
+  {
+   "text": "алдын",
+   "start": 15.829,
+   "end": 16.116,
+   "charStart": 245,
+   "charEnd": 250
+  },
+  {
+   "text": "ала",
+   "start": 16.116,
+   "end": 16.296,
+   "charStart": 251,
+   "charEnd": 254
+  },
+  {
+   "text": "есептеп",
+   "start": 16.296,
+   "end": 16.806,
+   "charStart": 255,
+   "charEnd": 262
+  },
+  {
+   "text": "қояды.",
+   "start": 16.806,
+   "end": 17.225,
+   "charStart": 263,
+   "charEnd": 269
+  },
+  {
+   "text": "Ал",
+   "start": 17.673,
+   "end": 17.773,
+   "charStart": 270,
+   "charEnd": 272
+  },
+  {
+   "text": "алдын",
+   "start": 17.773,
+   "end": 18.045,
+   "charStart": 273,
+   "charEnd": 278
+  },
+  {
+   "text": "ала",
+   "start": 18.045,
+   "end": 18.253,
+   "charStart": 279,
+   "charEnd": 282
+  },
+  {
+   "text": "белгілі",
+   "start": 18.253,
+   "end": 18.705,
+   "charStart": 283,
+   "charEnd": 290
+  },
+  {
+   "text": "болған",
+   "start": 18.705,
+   "end": 19.017,
+   "charStart": 291,
+   "charEnd": 297
+  },
+  {
+   "text": "сезімге",
+   "start": 19.017,
+   "end": 19.57,
+   "charStart": 298,
+   "charEnd": 305
+  },
+  {
+   "text": "ми",
+   "start": 19.57,
+   "end": 19.717,
+   "charStart": 306,
+   "charEnd": 308
+  },
+  {
+   "text": "көп",
+   "start": 19.973,
+   "end": 20.27,
+   "charStart": 309,
+   "charEnd": 312
+  },
+  {
+   "text": "мән",
+   "start": 20.27,
+   "end": 20.449,
+   "charStart": 313,
+   "charEnd": 316
+  },
+  {
+   "text": "бермейді.",
+   "start": 20.449,
+   "end": 21.015,
+   "charStart": 317,
+   "charEnd": 326
+  },
+  {
+   "text": "«Бұл",
+   "start": 21.403,
+   "end": 21.503,
+   "charStart": 327,
+   "charEnd": 331
+  },
+  {
+   "text": "өзім",
+   "start": 21.503,
+   "end": 21.756,
+   "charStart": 332,
+   "charEnd": 336
+  },
+  {
+   "text": "ғой,",
+   "start": 21.756,
+   "end": 22.043,
+   "charStart": 337,
+   "charEnd": 341
+  },
+  {
+   "text": "қорқатын",
+   "start": 22.055,
+   "end": 22.608,
+   "charStart": 342,
+   "charEnd": 350
+  },
+  {
+   "text": "ештеңе",
+   "start": 22.608,
+   "end": 22.957,
+   "charStart": 351,
+   "charEnd": 357
+  },
+  {
+   "text": "жоқ»",
+   "start": 22.957,
+   "end": 23.271,
+   "charStart": 358,
+   "charEnd": 362
+  },
+  {
+   "text": "дейді",
+   "start": 23.402,
+   "end": 23.535,
+   "charStart": 363,
+   "charEnd": 368
+  },
+  {
+   "text": "де,",
+   "start": 23.535,
+   "end": 23.745,
+   "charStart": 369,
+   "charEnd": 372
+  },
+  {
+   "text": "сезімді",
+   "start": 24.1,
+   "end": 24.518,
+   "charStart": 373,
+   "charEnd": 380
+  },
+  {
+   "text": "әлсіретіп",
+   "start": 24.518,
+   "end": 25.182,
+   "charStart": 381,
+   "charEnd": 390
+  },
+  {
+   "text": "тастайды.",
+   "start": 25.182,
+   "end": 25.637,
+   "charStart": 391,
+   "charEnd": 400
+  },
+  {
+   "text": "Сондықтан",
+   "start": 26.098,
+   "end": 26.56,
+   "charStart": 401,
+   "charEnd": 410
+  },
+  {
+   "text": "өзіңді",
+   "start": 26.56,
+   "end": 27.025,
+   "charStart": 411,
+   "charEnd": 417
+  },
+  {
+   "text": "қытықтағанда,",
+   "start": 27.025,
+   "end": 27.693,
+   "charStart": 418,
+   "charEnd": 431
+  },
+  {
+   "text": "жай",
+   "start": 28.056,
+   "end": 28.185,
+   "charStart": 432,
+   "charEnd": 435
+  },
+  {
+   "text": "ғана",
+   "start": 28.185,
+   "end": 28.402,
+   "charStart": 436,
+   "charEnd": 440
+  },
+  {
+   "text": "терің",
+   "start": 28.402,
+   "end": 28.81,
+   "charStart": 441,
+   "charEnd": 446
+  },
+  {
+   "text": "тиіп",
+   "start": 28.81,
+   "end": 29.043,
+   "charStart": 447,
+   "charEnd": 451
+  },
+  {
+   "text": "тұрғандай",
+   "start": 29.043,
+   "end": 29.468,
+   "charStart": 452,
+   "charEnd": 461
+  },
+  {
+   "text": "болады.",
+   "start": 29.468,
+   "end": 29.923,
+   "charStart": 462,
+   "charEnd": 469
+  },
+  {
+   "text": "Ал",
+   "start": 30.268,
+   "end": 30.368,
+   "charStart": 470,
+   "charEnd": 472
+  },
+  {
+   "text": "басқа",
+   "start": 30.368,
+   "end": 30.738,
+   "charStart": 473,
+   "charEnd": 478
+  },
+  {
+   "text": "адам",
+   "start": 30.738,
+   "end": 30.886,
+   "charStart": 479,
+   "charEnd": 483
+  },
+  {
+   "text": "қытықтағанда",
+   "start": 30.886,
+   "end": 31.518,
+   "charStart": 484,
+   "charEnd": 496
+  },
+  {
+   "text": "жағдай",
+   "start": 31.518,
+   "end": 31.98,
+   "charStart": 497,
+   "charEnd": 503
+  },
+  {
+   "text": "басқа.",
+   "start": 31.98,
+   "end": 32.44,
+   "charStart": 504,
+   "charEnd": 510
+  },
+  {
+   "text": "Ол",
+   "start": 32.89,
+   "end": 32.99,
+   "charStart": 511,
+   "charEnd": 513
+  },
+  {
+   "text": "қолын",
+   "start": 32.99,
+   "end": 33.348,
+   "charStart": 514,
+   "charEnd": 519
+  },
+  {
+   "text": "қашан,",
+   "start": 33.348,
+   "end": 33.93,
+   "charStart": 520,
+   "charEnd": 526
+  },
+  {
+   "text": "қай",
+   "start": 33.943,
+   "end": 34.19,
+   "charStart": 527,
+   "charEnd": 530
+  },
+  {
+   "text": "жерге",
+   "start": 34.19,
+   "end": 34.483,
+   "charStart": 531,
+   "charEnd": 536
+  },
+  {
+   "text": "апаратынын",
+   "start": 34.483,
+   "end": 34.957,
+   "charStart": 537,
+   "charEnd": 547
+  },
+  {
+   "text": "сен",
+   "start": 34.957,
+   "end": 35.166,
+   "charStart": 548,
+   "charEnd": 551
+  },
+  {
+   "text": "білмейсің.",
+   "start": 35.166,
+   "end": 35.714,
+   "charStart": 552,
+   "charEnd": 562
+  },
+  {
+   "text": "Ми",
+   "start": 36.046,
+   "end": 36.146,
+   "charStart": 563,
+   "charEnd": 565
+  },
+  {
+   "text": "де",
+   "start": 36.153,
+   "end": 36.344,
+   "charStart": 566,
+   "charEnd": 568
+  },
+  {
+   "text": "білмейді.",
+   "start": 36.344,
+   "end": 36.839,
+   "charStart": 569,
+   "charEnd": 578
+  },
+  {
+   "text": "Күтпеген",
+   "start": 37.179,
+   "end": 37.518,
+   "charStart": 579,
+   "charEnd": 587
+  },
+  {
+   "text": "жерден",
+   "start": 37.518,
+   "end": 37.753,
+   "charStart": 588,
+   "charEnd": 594
+  },
+  {
+   "text": "бір",
+   "start": 37.753,
+   "end": 37.943,
+   "charStart": 595,
+   "charEnd": 598
+  },
+  {
+   "text": "нәрсе",
+   "start": 37.943,
+   "end": 38.177,
+   "charStart": 599,
+   "charEnd": 604
+  },
+  {
+   "text": "тигенде,",
+   "start": 38.177,
+   "end": 38.762,
+   "charStart": 605,
+   "charEnd": 613
+  },
+  {
+   "text": "дене",
+   "start": 39.042,
+   "end": 39.27,
+   "charStart": 614,
+   "charEnd": 618
+  },
+  {
+   "text": "бірден",
+   "start": 39.27,
+   "end": 39.629,
+   "charStart": 619,
+   "charEnd": 625
+  },
+  {
+   "text": "сақтанады.",
+   "start": 39.629,
+   "end": 40.231,
+   "charStart": 626,
+   "charEnd": 636
+  },
+  {
+   "text": "Селт",
+   "start": 40.489,
+   "end": 40.702,
+   "charStart": 637,
+   "charEnd": 641
+  },
+  {
+   "text": "етесің,",
+   "start": 40.702,
+   "end": 41.194,
+   "charStart": 642,
+   "charEnd": 649
+  },
+  {
+   "text": "бұраласың,",
+   "start": 41.194,
+   "end": 41.877,
+   "charStart": 650,
+   "charEnd": 660
+  },
+  {
+   "text": "күлкің",
+   "start": 42.149,
+   "end": 42.313,
+   "charStart": 661,
+   "charEnd": 667
+  },
+  {
+   "text": "келеді.",
+   "start": 42.313,
+   "end": 42.787,
+   "charStart": 668,
+   "charEnd": 675
+  },
+  {
+   "text": "Ғалымдар",
+   "start": 43.415,
+   "end": 43.785,
+   "charStart": 676,
+   "charEnd": 684
+  },
+  {
+   "text": "мұны",
+   "start": 43.785,
+   "end": 43.998,
+   "charStart": 685,
+   "charEnd": 689
+  },
+  {
+   "text": "қызық",
+   "start": 43.998,
+   "end": 44.368,
+   "charStart": 690,
+   "charEnd": 695
+  },
+  {
+   "text": "тәжірибемен",
+   "start": 44.368,
+   "end": 44.987,
+   "charStart": 696,
+   "charEnd": 707
+  },
+  {
+   "text": "тексерген.",
+   "start": 44.987,
+   "end": 45.553,
+   "charStart": 708,
+   "charEnd": 718
+  },
+  {
+   "text": "Адам",
+   "start": 45.991,
+   "end": 46.175,
+   "charStart": 719,
+   "charEnd": 723
+  },
+  {
+   "text": "өзін",
+   "start": 46.175,
+   "end": 46.463,
+   "charStart": 724,
+   "charEnd": 728
+  },
+  {
+   "text": "арнайы",
+   "start": 46.463,
+   "end": 46.969,
+   "charStart": 729,
+   "charEnd": 735
+  },
+  {
+   "text": "құрылғы",
+   "start": 46.969,
+   "end": 47.363,
+   "charStart": 736,
+   "charEnd": 743
+  },
+  {
+   "text": "арқылы",
+   "start": 47.363,
+   "end": 47.647,
+   "charStart": 744,
+   "charEnd": 750
+  },
+  {
+   "text": "қытықтаған,",
+   "start": 47.647,
+   "end": 48.273,
+   "charStart": 751,
+   "charEnd": 762
+  },
+  {
+   "text": "бірақ",
+   "start": 48.653,
+   "end": 48.791,
+   "charStart": 763,
+   "charEnd": 768
+  },
+  {
+   "text": "құрылғы",
+   "start": 48.791,
+   "end": 49.253,
+   "charStart": 769,
+   "charEnd": 776
+  },
+  {
+   "text": "сәл",
+   "start": 49.253,
+   "end": 49.56,
+   "charStart": 777,
+   "charEnd": 780
+  },
+  {
+   "text": "кешігіп",
+   "start": 49.56,
+   "end": 50.104,
+   "charStart": 781,
+   "charEnd": 788
+  },
+  {
+   "text": "тиетін",
+   "start": 50.104,
+   "end": 50.348,
+   "charStart": 789,
+   "charEnd": 795
+  },
+  {
+   "text": "болған.",
+   "start": 50.348,
+   "end": 50.767,
+   "charStart": 796,
+   "charEnd": 803
+  },
+  {
+   "text": "Сол",
+   "start": 51.181,
+   "end": 51.333,
+   "charStart": 804,
+   "charEnd": 807
+  },
+  {
+   "text": "кішкене",
+   "start": 51.336,
+   "end": 51.824,
+   "charStart": 808,
+   "charEnd": 815
+  },
+  {
+   "text": "кідірістің",
+   "start": 51.824,
+   "end": 52.313,
+   "charStart": 816,
+   "charEnd": 826
+  },
+  {
+   "text": "өзі",
+   "start": 52.313,
+   "end": 52.507,
+   "charStart": 827,
+   "charEnd": 830
+  },
+  {
+   "text": "жеткілікті",
+   "start": 52.507,
+   "end": 53.048,
+   "charStart": 831,
+   "charEnd": 841
+  },
+  {
+   "text": "болған:",
+   "start": 53.048,
+   "end": 53.463,
+   "charStart": 842,
+   "charEnd": 849
+  },
+  {
+   "text": "ми",
+   "start": 53.816,
+   "end": 53.916,
+   "charStart": 850,
+   "charEnd": 852
+  },
+  {
+   "text": "болжай",
+   "start": 53.916,
+   "end": 54.306,
+   "charStart": 853,
+   "charEnd": 859
+  },
+  {
+   "text": "алмай",
+   "start": 54.306,
+   "end": 54.572,
+   "charStart": 860,
+   "charEnd": 865
+  },
+  {
+   "text": "қалып,",
+   "start": 54.572,
+   "end": 54.967,
+   "charStart": 866,
+   "charEnd": 872
+  },
+  {
+   "text": "адам",
+   "start": 55.192,
+   "end": 55.49,
+   "charStart": 873,
+   "charEnd": 877
+  },
+  {
+   "text": "өз",
+   "start": 55.505,
+   "end": 55.783,
+   "charStart": 878,
+   "charEnd": 880
+  },
+  {
+   "text": "қытығын",
+   "start": 55.783,
+   "end": 56.118,
+   "charStart": 881,
+   "charEnd": 888
+  },
+  {
+   "text": "сезе",
+   "start": 56.118,
+   "end": 56.408,
+   "charStart": 889,
+   "charEnd": 893
+  },
+  {
+   "text": "бастаған.",
+   "start": 56.408,
+   "end": 56.932,
+   "charStart": 894,
+   "charEnd": 903
+  },
+  {
+   "text": "Яғни",
+   "start": 57.419,
+   "end": 57.675,
+   "charStart": 904,
+   "charEnd": 908
+  },
+  {
+   "text": "ми",
+   "start": 57.78,
+   "end": 58.087,
+   "charStart": 909,
+   "charEnd": 911
+  },
+  {
+   "text": "бізге",
+   "start": 58.114,
+   "end": 58.463,
+   "charStart": 912,
+   "charEnd": 917
+  },
+  {
+   "text": "тек",
+   "start": 58.463,
+   "end": 58.712,
+   "charStart": 918,
+   "charEnd": 921
+  },
+  {
+   "text": "сезу",
+   "start": 58.712,
+   "end": 58.974,
+   "charStart": 922,
+   "charEnd": 926
+  },
+  {
+   "text": "үшін",
+   "start": 58.974,
+   "end": 59.244,
+   "charStart": 927,
+   "charEnd": 931
+  },
+  {
+   "text": "емес,",
+   "start": 59.244,
+   "end": 59.586,
+   "charStart": 932,
+   "charEnd": 937
+  },
+  {
+   "text": "не",
+   "start": 59.922,
+   "end": 60.022,
+   "charStart": 938,
+   "charEnd": 940
+  },
+  {
+   "text": "болатынын",
+   "start": 60.022,
+   "end": 60.647,
+   "charStart": 941,
+   "charEnd": 950
+  },
+  {
+   "text": "алдын",
+   "start": 60.647,
+   "end": 60.922,
+   "charStart": 951,
+   "charEnd": 956
+  },
+  {
+   "text": "ала",
+   "start": 60.922,
+   "end": 61.107,
+   "charStart": 957,
+   "charEnd": 960
+  },
+  {
+   "text": "білу",
+   "start": 61.107,
+   "end": 61.468,
+   "charStart": 961,
+   "charEnd": 965
+  },
+  {
+   "text": "үшін",
+   "start": 61.468,
+   "end": 61.696,
+   "charStart": 966,
+   "charEnd": 970
+  },
+  {
+   "text": "керек.",
+   "start": 61.696,
+   "end": 62.168,
+   "charStart": 971,
+   "charEnd": 977
+  },
+  {
+   "text": "Ал",
+   "start": 62.463,
+   "end": 62.563,
+   "charStart": 978,
+   "charEnd": 980
+  },
+  {
+   "text": "біз",
+   "start": 62.563,
+   "end": 62.87,
+   "charStart": 981,
+   "charEnd": 984
+  },
+  {
+   "text": "күтпеген",
+   "start": 63.167,
+   "end": 63.544,
+   "charStart": 985,
+   "charEnd": 993
+  },
+  {
+   "text": "нәрсені",
+   "start": 63.544,
+   "end": 63.862,
+   "charStart": 994,
+   "charEnd": 1001
+  },
+  {
+   "text": "ғана",
+   "start": 63.862,
+   "end": 64.147,
+   "charStart": 1002,
+   "charEnd": 1006
+  },
+  {
+   "text": "шын",
+   "start": 64.147,
+   "end": 64.416,
+   "charStart": 1007,
+   "charEnd": 1010
+  },
+  {
+   "text": "сеземіз.",
+   "start": 64.416,
+   "end": 64.984,
+   "charStart": 1011,
+   "charEnd": 1019
+  },
+  {
+   "text": "Денең",
+   "start": 65.468,
+   "end": 65.77,
+   "charStart": 1020,
+   "charEnd": 1025
+  },
+  {
+   "text": "мен",
+   "start": 65.77,
+   "end": 65.95,
+   "charStart": 1026,
+   "charEnd": 1029
+  },
+  {
+   "text": "миың",
+   "start": 65.95,
+   "end": 66.247,
+   "charStart": 1030,
+   "charEnd": 1034
+  },
+  {
+   "text": "туралы",
+   "start": 66.247,
+   "end": 66.579,
+   "charStart": 1035,
+   "charEnd": 1041
+  },
+  {
+   "text": "осындай",
+   "start": 66.579,
+   "end": 67.112,
+   "charStart": 1042,
+   "charEnd": 1049
+  },
+  {
+   "text": "қызық",
+   "start": 67.112,
+   "end": 67.429,
+   "charStart": 1050,
+   "charEnd": 1055
+  },
+  {
+   "text": "нәрселерді",
+   "start": 67.429,
+   "end": 68.009,
+   "charStart": 1056,
+   "charEnd": 1066
+  },
+  {
+   "text": "жіберіп",
+   "start": 68.009,
+   "end": 68.404,
+   "charStart": 1067,
+   "charEnd": 1074
+  },
+  {
+   "text": "алмау",
+   "start": 68.404,
+   "end": 68.652,
+   "charStart": 1075,
+   "charEnd": 1080
+  },
+  {
+   "text": "үшін,",
+   "start": 68.652,
+   "end": 68.918,
+   "charStart": 1081,
+   "charEnd": 1086
+  },
+  {
+   "text": "парақшаға",
+   "start": 68.918,
+   "end": 69.586,
+   "charStart": 1087,
+   "charEnd": 1096
+  },
+  {
+   "text": "жазылып",
+   "start": 69.586,
+   "end": 69.944,
+   "charStart": 1097,
+   "charEnd": 1104
+  },
+  {
+   "text": "қойыңыз.",
+   "start": 69.944,
+   "end": 70.376,
+   "charStart": 1105,
+   "charEnd": 1113
+  }
+ ],
+ "silences": [
+  [
+   2.319,
+   2.685
+  ],
+  [
+   4.484,
+   4.761
+  ],
+  [
+   5.581,
+   5.924
+  ],
+  [
+   6.36,
+   6.681
+  ],
+  [
+   9.192,
+   9.566
+  ],
+  [
+   12.557,
+   13.0
+  ],
+  [
+   14.356,
+   14.566
+  ],
+  [
+   15.126,
+   15.607
+  ],
+  [
+   17.276,
+   17.703
+  ],
+  [
+   19.667,
+   19.915
+  ],
+  [
+   20.965,
+   21.433
+  ],
+  [
+   23.221,
+   23.432
+  ],
+  [
+   23.807,
+   24.13
+  ],
+  [
+   25.683,
+   26.128
+  ],
+  [
+   27.829,
+   28.086
+  ],
+  [
+   29.873,
+   30.298
+  ],
+  [
+   32.485,
+   32.92
+  ],
+  [
+   35.773,
+   36.076
+  ],
+  [
+   36.789,
+   37.209
+  ],
+  [
+   38.825,
+   39.072
+  ],
+  [
+   40.254,
+   40.519
+  ],
+  [
+   41.925,
+   42.179
+  ],
+  [
+   42.843,
+   43.445
+  ],
+  [
+   45.585,
+   46.021
+  ],
+  [
+   48.336,
+   48.683
+  ],
+  [
+   50.809,
+   51.212
+  ],
+  [
+   53.487,
+   53.846
+  ],
+  [
+   54.917,
+   55.222
+  ],
+  [
+   56.984,
+   57.45
+  ],
+  [
+   59.656,
+   59.952
+  ],
+  [
+   62.118,
+   62.493
+  ],
+  [
+   62.934,
+   63.197
+  ],
+  [
+   65.076,
+   65.498
+  ]
+ ]
+}

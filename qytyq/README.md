@@ -1,54 +1,26 @@
-# Remotion video
+# «Неге өзімізді өзіміз қытықтай алмаймыз?» — 3D видео
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Remotion + @remotion/three (React Three Fiber). Формат: 1080×1920, 30 fps.
 
-Welcome to your Remotion project!
+## Құрылым
+- `audio/voice.mp3` — дауыс (өзгертілмеген)
+- `timestamps.json` — сөз деңгейіндегі уақыт белгілері
+- `sfx/` — дыбыс эффекттері, `music/` — фон музыкасы
+- `src/scenes/` — 16 сахна (әрқайсысы бөлек компонент), `src/three/` — 3D кейіпкер мен заттар
+- `src/Captions.tsx` — karaoke субтитр
+- `output/` — дайын видео (git-ке кірмейді)
 
-## Commands
-
-**Install Dependencies**
-
-```console
-npm i --loglevel=error
+## Командалар
+```bash
+npm i
+npx remotion studio                       # алдын ала қарау
+npx remotion render Qytyq output/qytyq_raw.mp4 --gl=swangle --concurrency=3
+# дыбыс қаттылығын -14 LUFS-қа келтіру: scripts/loudnorm.sh
 ```
 
-**Start Preview**
-
-```console
-npm run dev
-```
-
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+## Дыбыс (ElevenLabs-сыз нұсқа)
+- Уақыт белгілері: `scripts/align.py` (faster-whisper large-v3, kk) + `scripts/refine_silence.py`.
+  Мәтін өзгермейді, Whisper тек уақытты береді. `HF_HUB_DISABLE_XET=1` қажет болуы мүмкін.
+- Эффекттер мен музыка: `scripts/synth_audio.py` (процедуралық синтез, лицензиясыз),
+  қосымша Kenney (CC0, `sfx/LICENSE-kenney-CC0.txt`) және remotion.media дыбыстары.
+- ElevenLabs кілті пайда болса: `.env` → `ELEVENLABS_API_KEY=...` (файл git-ке кірмейді).
