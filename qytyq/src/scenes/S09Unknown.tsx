@@ -8,10 +8,10 @@ import { drift, HoloPanel, SceneProps } from "./shared";
 
 /** Hands appear from different sides, one at a time. */
 const SPOTS: { p: [number, number, number]; r: [number, number, number] }[] = [
-  { p: [1.7, 1.3, 0.4], r: [0, 0, 1.3] },
-  { p: [-1.7, 1.5, 0.4], r: [0, 0, -1.3] },
-  { p: [1.5, 0.55, 0.6], r: [0, 0, 1.6] },
-  { p: [-1.4, 2.1, 0.5], r: [0, 0, -1.0] },
+  { p: [0.98, 1.3, 0.4], r: [0, 0, -1.3] },
+  { p: [-0.98, 1.5, 0.4], r: [0, 0, 1.3] },
+  { p: [0.9, 0.75, 0.6], r: [0, 0, -1.6] },
+  { p: [-0.95, 1.95, 0.5], r: [0, 0, 1.0] },
 ];
 
 /** 9. Somebody else's hand pops in from random sides; the brain hologram only shows blinking "?". */
@@ -38,7 +38,7 @@ export const S09Unknown: React.FC<SceneProps> = ({ dur }) => {
         right={{ out: 0.35, elbow: 0.6 }}
         shrug={0.05}
       />
-      <TickleHand frame={f} position={[spot.p[0] + dir * out, spot.p[1], spot.p[2]]} rotation={spot.r} sleeve={k % 2 ? "#e86f51" : "#f2a93b"} />
+      <TickleHand frame={f} position={[spot.p[0] + dir * out, spot.p[1], spot.p[2]]} rotation={spot.r} scale={0.62} sleeve={k % 2 ? "#e86f51" : "#f2a93b"} />
       <Brain position={[0, 4.75, -0.3]} scale={0.78} glow={0.3} smile={-0.3} look={[0, -0.6]} />
       <HoloPanel position={[0, 4.65, 0.75]} w={2.6} h={1.6} opacity={panel}>
         {[-0.75, 0, 0.75].map((x, i) => {

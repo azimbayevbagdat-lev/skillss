@@ -48,7 +48,7 @@ export const S10Startle: React.FC<SceneProps> = ({ dur }) => {
           right={{ out: 0.4 + scared * 1.6, elbow: 0.3 + scared * 0.8, fwd: laugh * 0.5 }}
           blush={0.4 + laugh * 0.6}
         />
-        <TickleHand frame={f} position={[1.6 + (1 - handIn) * 3, 1.2, 0.5]} rotation={[0, 0, 1.35]} sleeve="#e86f51" />
+        <TickleHand frame={f} position={[1.0 + (1 - handIn) * 3, 1.2, 0.5]} rotation={[0, 0, -1.35]} scale={0.62} sleeve="#e86f51" />
         <Brain position={[0, 5.1, -0.6]} scale={0.6} glow={0.3 + flash * 1.5} smile={0.9} look={[0.3, -0.5]} />
         {f >= hitAt && <Nerve points={NERVE} t={sig} amp={1} pulseColor="#ffef7a" />}
         {flash > 0.02 && <GlowDot position={[0, 5.1, 0]} size={2.6 * flash} color="#fff3a0" intensity={flash} />}

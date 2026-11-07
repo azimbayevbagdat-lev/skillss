@@ -38,8 +38,8 @@ export const S01Tickled: React.FC<SceneProps> = ({ dur }) => {
       />
       <TickleHand
         frame={f}
-        position={[1.25 + (1 - handIn) * 3, 1.3 + wob(f, 0.4, 0.06), 0.45]}
-        rotation={[0, 0, 1.15]}
+        position={[0.95 + (1 - handIn) * 3, 1.3 + wob(f, 0.4, 0.06), 0.45]}
+        rotation={[0, 0, -1.15]}
         scale={0.62}
         wiggle={1}
       />
