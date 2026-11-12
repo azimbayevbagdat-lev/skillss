@@ -72,9 +72,9 @@ export const ChartScene: React.FC = () => {
   const x7 = pop(t, 56.1, 0.45);
   const win = pop(t, 58.3, 0.5);
   const ang = kf(t, [46.65, 52, 57, 61.85], [-0.5, -0.22, 0.12, 0.3]);
-  const d = kf(t, [46.65, 50, 55.5, 61.85], [8.2, 7.2, 7.0, 7.4]);
+  const d = kf(t, [46.65, 50, 55.5, 61.85], [6.6, 5.6, 5.5, 5.9]);
   const camY = kf(t, [46.65, 55.5, 57.5, 61.85], [2.6, 2.1, 2.4, 2.5]);
-  const tgtY = kf(t, [46.65, 55.5, 57.5, 61.85], [1.5, 1.25, 1.35, 1.4]);
+  const tgtY = kf(t, [46.65, 55.5, 57.5, 61.85], [1.6, 1.25, 1.55, 1.6]);
   return (
     <>
       <CamRig pos={[Math.sin(ang) * d, camY, Math.cos(ang) * d]} target={[0, tgtY, 0]} fov={36} />
@@ -110,12 +110,12 @@ export const ChartScene: React.FC = () => {
           </>
         ) : null}
         {x7 > 0.01 ? (
-          <group position={[1.55, CY + 0.12 + hFast * 0.55, 0.3]} scale={x7}>
+          <group position={[-0.55, CY + 0.12 + hSlow + 0.85, 0.3]} scale={x7}>
             <Label text="×7" size={0.6} color="#ffe14a" stroke="#3a2a00" glow={1.6} />
           </group>
         ) : null}
         {win > 0.01 ? (
-          <group position={[-1.45, CY + 0.12 + hFast * 0.6, 0.2]} scale={win}>
+          <group position={[0.55, CY + 0.12 + hFast + 0.62, 0.2]} scale={win * 0.7}>
             <Lightning scale={0.6} intensity={3} rotation={[0, t * 0.8, 0.2]} />
           </group>
         ) : null}

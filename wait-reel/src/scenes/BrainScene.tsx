@@ -104,7 +104,7 @@ const Smoke: React.FC<{ t: number; amount: number }> = ({ t, amount }) => {
 const ShoppingBag: React.FC<{ s: number; t: number }> = ({ s, t }) => {
   if (s < 0.01) return null;
   return (
-    <group position={[1.15, 0.85 + wobble(t, 2) * 0.04, 0.2]} rotation={[0.1, -0.5 + Math.sin(t) * 0.15, 0.1]} scale={0.55 * s}>
+    <group position={[0.55, 1.35 + wobble(t, 2) * 0.04, 0.4]} rotation={[0.1, -0.5 + Math.sin(t) * 0.15, 0.1]} scale={0.55 * s}>
       <RoundedBox args={[0.7, 0.8, 0.32]} radius={0.04} castShadow>
         <meshPhysicalMaterial color="#7b5cff" roughness={0.45} clearcoat={0.6} emissive="#7b5cff" emissiveIntensity={0.25} />
       </RoundedBox>
@@ -137,7 +137,7 @@ export const BrainScene: React.FC = () => {
 
   return (
     <>
-      <CamRig pos={[Math.sin(ang) * dist, camY, Math.cos(ang) * dist]} target={[0, brainY - 0.35, 0]} fov={34} />
+      <CamRig pos={[Math.sin(ang) * dist, camY, Math.cos(ang) * dist]} target={[0, brainY - 0.2, 0]} fov={34} />
       <Stage bg="#0c0a16" focus={[0, brainY, 0]} focusRange={1.4} bokeh={4} bloom={1.3} bloomThreshold={0.9} envIntensity={0.6} warm={false}>
         <ambientLight intensity={0.12} />
         <KeyLight position={[3, 5, 3]} intensity={1.4} color="#c9d4ff" />
@@ -152,8 +152,10 @@ export const BrainScene: React.FC = () => {
           <ringGeometry args={[1.42, 1.47, 96]} />
           <meshBasicMaterial color="#7b5cff" toneMapped={false} />
         </mesh>
-        <group position={[0, brainY, 0]} scale={appear} rotation={[0.05, t * 0.12, 0]}>
-          <Flame t={t} size={fire * 0.9} />
+        <group position={[0, brainY, 0]} scale={appear * 0.62} rotation={[0.05, t * 0.12, 0]}>
+          <group position={[0, -0.32, 0]}>
+            <Flame t={t} size={fire * 0.62} />
+          </group>
           <Smoke t={t} amount={prog(t, 23.0, 24.0)} />
           <mesh geometry={geo} castShadow>
             <meshPhysicalMaterial
@@ -163,12 +165,12 @@ export const BrainScene: React.FC = () => {
               transmission={1}
               thickness={0.35}
               ior={1.18}
-              attenuationColor="#ffb3d4"
-              attenuationDistance={3}
+              attenuationColor="#ffc6de"
+              attenuationDistance={6}
               clearcoat={1}
               clearcoatRoughness={0.05}
               emissive="#ff7fb0"
-              emissiveIntensity={0.06}
+              emissiveIntensity={0.12}
               specularIntensity={1}
               envMapIntensity={1.4}
             />
@@ -179,10 +181,10 @@ export const BrainScene: React.FC = () => {
             <meshPhysicalMaterial color="#ffe3ef" roughness={0.1} transmission={1} thickness={0.4} ior={1.38} />
           </mesh>
         </group>
-        <Sparkles3D t={t} count={30} radius={1.8} position={[0, brainY, 0]} color="#ffcf7a" size={0.025} opacity={fire} />
+        <Sparkles3D t={t} count={30} radius={1.2} position={[0, brainY, 0]} color="#ffcf7a" size={0.025} opacity={fire} />
         <ShoppingBag s={bag} t={t} />
         {minuteLabel ? (
-          <group position={[0, brainY + 1.25, 0.3]} rotation={[0, ang, 0]} scale={pop(t, t >= 24.1 ? 24.1 : t >= 23.6 ? 23.6 : 23.1, 0.3)}>
+          <group position={[0, brainY + 0.85, 0.3]} rotation={[0, ang, 0]} scale={pop(t, t >= 24.1 ? 24.1 : t >= 23.6 ? 23.6 : 23.1, 0.3)}>
             <Label text={minuteLabel} size={0.26} bg="#e2557a" color="#fff" />
           </group>
         ) : null}

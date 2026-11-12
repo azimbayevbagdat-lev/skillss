@@ -55,12 +55,12 @@ export const ScaleScene: React.FC = () => {
     const x = t - 45.2;
     tilt = 0.07 + (-0.42 - 0.07) * (1 - Math.exp(-7 * x) * Math.cos(9 * x));
   }
-  const ang = kf(t, [42.15, 46.65], [0.35, -0.2]);
+  const ang = kf(t, [42.15, 46.65], [0.15, -0.1]);
   const d = kf(t, [42.15, 46.65], [6.2, 5.6]);
   const glow = prog(t, 45.2, 45.6);
   return (
     <>
-      <CamRig pos={[Math.sin(ang) * d, 1.9, Math.cos(ang) * d]} target={[0, 1.2, 0]} fov={36} />
+      <CamRig pos={[Math.sin(ang) * d, 1.9, Math.cos(ang) * d]} target={[0, 0.95, 0]} fov={36} />
       <Stage bg="#16122a" focus={[0, 1.2, 0]} focusRange={2.5} bokeh={3} bloom={1.0} envIntensity={1.0}>
         <ambientLight intensity={0.2} />
         <KeyLight position={[2, 5, 3]} intensity={2.4} target={[0, 1, 0]} />
@@ -70,7 +70,7 @@ export const ScaleScene: React.FC = () => {
           <circleGeometry args={[7, 64]} />
           <meshPhysicalMaterial color="#201a3a" roughness={0.3} clearcoat={0.9} />
         </mesh>
-        <group scale={appear}>
+        <group scale={appear * 0.72}>
           {/* base & pillar */}
           <mesh position={[0, 0.06, 0]} material={gold} castShadow receiveShadow>
             <cylinderGeometry args={[0.45, 0.55, 0.12, 64]} />
@@ -109,10 +109,10 @@ export const ScaleScene: React.FC = () => {
           <Sparkles3D t={t} count={22} radius={0.6} position={[BEAM, 1.0 - tilt * 1.2, 0]} color="#ffe27a" opacity={glow} />
         </group>
         {/* labels under the pans */}
-        <group position={[-1.1, 2.35, 0.3]} scale={priceIn}>
+        <group position={[-0.62, 1.95, 0.3]} scale={priceIn * 0.75}>
           <Label text="БАҒА" size={0.2} color="#ffd6dc" />
         </group>
-        <group position={[1.15, 2.35, 0.3]} scale={pop(t, 45.25, 0.4)}>
+        <group position={[0.62, 1.95, 0.3]} scale={pop(t, 45.25, 0.4) * 0.75}>
           <Label text="ЖЫЛДАМДЫҚ" size={0.2} color="#ffe27a" glow={1.4} />
         </group>
       </Stage>

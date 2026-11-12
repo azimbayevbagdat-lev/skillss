@@ -78,7 +78,7 @@ export const HourglassScene: React.FC = () => {
   // "белгісіз бес минут" stretches, "жиырма минут" shrinks
   const stretch = kf(t, [38.4, 41.6], [0, 1]);
   const shrink = kf(t, [39.4, 41.6], [0, 1]);
-  const ang = kf(t, [36.65, 42.15], [-0.3, 0.25]);
+  const ang = kf(t, [36.65, 42.15], [-0.15, 0.12]);
   const d = kf(t, [36.65, 42.15], [6.4, 5.9]);
   const sx5 = 1 + stretch * 0.32;
   const sy5 = 1 + stretch * 0.8;
@@ -86,7 +86,7 @@ export const HourglassScene: React.FC = () => {
   const jitter = stretch * Math.sin(t * 9) * 0.02;
   return (
     <>
-      <CamRig pos={[Math.sin(ang) * d, 1.6, Math.cos(ang) * d]} target={[0, 1.05, 0]} fov={36} />
+      <CamRig pos={[Math.sin(ang) * d, 1.6, Math.cos(ang) * d]} target={[0, 0.85, 0]} fov={36} />
       <Stage bg="#191530" focus={[0, 1.2, 0]} focusRange={2.5} bokeh={3.5} bloom={0.8} envIntensity={0.9}>
         <ambientLight intensity={0.2} />
         <KeyLight position={[2.5, 5, 3]} intensity={2.4} target={[0, 0.8, 0]} />
@@ -97,7 +97,7 @@ export const HourglassScene: React.FC = () => {
           <meshPhysicalMaterial color="#231d40" roughness={0.35} clearcoat={0.8} />
         </mesh>
         {/* 5-minute (uncertain) hourglass */}
-        <group position={[-0.75, 0, 0]} scale={appear}>
+        <group position={[-0.5, 0, 0]} scale={appear * 0.75}>
           <group position={[0, 0.64 * sy5, 0]} scale={[sx5, sy5, sx5]} rotation={[0, 0, jitter]}>
             <Hourglass sand={kf(t, [37, 42.15], [0.15, 0.4])} t={t} tint="#ff7a6b" glow={0.15 + stretch * 0.5} />
           </group>
@@ -109,7 +109,7 @@ export const HourglassScene: React.FC = () => {
           </group>
         </group>
         {/* 20-minute (known) hourglass */}
-        <group position={[0.78, 0, 0]} scale={appear}>
+        <group position={[0.52, 0, 0]} scale={appear * 0.75}>
           <group position={[0, 0.64 * s20, 0]} scale={s20}>
             <Hourglass sand={kf(t, [37, 42.15], [0.1, 0.55])} t={t} tint="#ffd9a0" glow={0.1} />
           </group>
