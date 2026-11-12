@@ -322,7 +322,8 @@ export const NightScenes: React.FC = () => {
     <>
       <CamRig pos={cam.pos} target={cam.target} fov={cam.fov} />
       <Stage bg="#0a0c1d" focus={t < 64.3 ? HEAD : t < 70.4 ? PHONE_POS : t < 73.9 ? ROBOT : t < 75.5 ? [0.75, 1.8, -1.2] : [0.2, 2.1, -0.2]} focusRange={t > 80.5 ? 4 : 1.6} bokeh={3.5} bloom={1.1} bloomThreshold={0.85} envIntensity={0.45} night warm={false}>
-        <ambientLight intensity={0.12} color="#6b7fd6" />
+        <ambientLight intensity={0.22} color="#6b7fd6" />
+        <pointLight position={[PHONE_POS[0] + 0.4, 1.4, PHONE_POS[2] + 0.8]} intensity={1.2} distance={2.5} color="#c9c4ff" />
         <KeyLight position={[1.4, 3.2, -2.6]} intensity={1.2} color="#9fb4ff" target={[0, 0.6, 0]} />
         <pointLight position={[PHONE_POS[0], PHONE_POS[1] + 0.25, PHONE_POS[2]]} intensity={0.6 + flash * 2.5} distance={2.2} color="#b9b0ff" />
         <Bedroom t={t} clock={clock} />
@@ -333,9 +334,9 @@ export const NightScenes: React.FC = () => {
             armL: { x: 0.05, z: 0.08, elbow: -0.15 },
             armR: { x: 0.05, z: 0.08, elbow: -0.15 },
             headPitch: -0.1,
-            headRoll: 0.25,
+            headRoll: 0.1,
           }}
-          expr={{ eyesClosed: 1, smile: bot ? 0.5 : 0.15, brow: 0.1 }}
+          expr={{ eyesClosed: 1, smile: bot ? 0.6 : 0.35, brow: 0.1 }}
           shirt="#ff6f4f"
         />
         {/* Zzz */}
@@ -370,6 +371,7 @@ export const NightScenes: React.FC = () => {
                 rotation={[0, 0.3, 0]}
                 scale={0.3 * s * (1 - leave)}
                 color={leave > 0 ? "#c9c9d6" : "#ffffff"}
+                glow={0.35}
               />
             </group>
           );

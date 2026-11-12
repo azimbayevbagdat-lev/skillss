@@ -60,7 +60,7 @@ export const CtaScene: React.FC = () => {
   const cta = pop(t, 85.6, 0.5);
   const btn = pop(t, 86.2, 0.55);
   const pulse = 0.5 + 0.5 * Math.sin((t - 86.2) * 5.5);
-  const glow = btn * (0.6 + 0.9 * pulse);
+  const glow = btn * (0.25 + 0.45 * pulse);
   const ring = ((t - 86.2) * 0.9) % 1;
   const settle = prog(t, 84.85, FREEZE_S);
   const camZ = kf(t, [84.85, FREEZE_S], [5.8, 5.2]);
@@ -88,7 +88,7 @@ export const CtaScene: React.FC = () => {
           </RoundedBox>
           <CanvasPanel w={2.3} h={0.58} px={1150} draw={drawLogo} drawKey="logo" emissive={1.25} position={[0, 0, 0.065]} />
         </group>
-        <group position={[0, 2.3, 0.1]} scale={cta * 0.6}>
+        <group position={[0, 2.3, 0.1]} scale={cta * 0.72}>
           <CanvasPanel w={2.7} h={0.3} px={1350} draw={drawCta} drawKey="cta" emissive={1.05} />
         </group>
         {/* subscribe button */}
@@ -96,7 +96,7 @@ export const CtaScene: React.FC = () => {
           <RoundedBox args={[1.5, 0.42, 0.16]} radius={0.2} smoothness={8} castShadow>
             <meshPhysicalMaterial color="#ff3b5c" roughness={0.2} clearcoat={1} emissive="#ff2a50" emissiveIntensity={glow} />
           </RoundedBox>
-          <CanvasPanel w={1.36} h={0.34} px={800} draw={drawButton} drawKey="btn" emissive={1.3} position={[0, 0, 0.085]} />
+          <CanvasPanel w={1.36} h={0.34} px={800} draw={drawButton} drawKey="btn" emissive={1.0} position={[0, 0, 0.085]} />
           {/* glow ring */}
           <mesh position={[0, 0, -0.02]} scale={[1 + ring * 0.35, 1 + ring * 0.9, 1]}>
             <ringGeometry args={[0.36, 0.4, 64]} />
